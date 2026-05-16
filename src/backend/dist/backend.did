@@ -1,0 +1,139 @@
+type UserRole = 
+ variant {
+   admin;
+   guest;
+   user;
+ };
+type TestimonialInput = 
+ record {
+   featured: bool;
+   name: text;
+   photoUrl: text;
+   quote: text;
+   rating: nat;
+ };
+type TestimonialId = nat;
+type Testimonial = 
+ record {
+   createdAt: int;
+   featured: bool;
+   id: TestimonialId;
+   name: text;
+   photoUrl: text;
+   quote: text;
+   rating: nat;
+ };
+type PackageInput = 
+ record {
+   features: vec text;
+   highlighted: bool;
+   name: text;
+   price: text;
+ };
+type PackageId = nat;
+type Package = 
+ record {
+   features: vec text;
+   highlighted: bool;
+   id: PackageId;
+   name: text;
+   price: text;
+ };
+type InquiryInput = 
+ record {
+   email: text;
+   eventDate: text;
+   message: text;
+   name: text;
+   packageInterest: text;
+   phone: text;
+ };
+type InquiryId = nat;
+type GalleryImageInput = 
+ record {
+   alt: text;
+   caption: text;
+   category: text;
+   displayOrder: nat;
+   url: text;
+ };
+type GalleryImageId = nat;
+type GalleryImage = 
+ record {
+   alt: text;
+   caption: text;
+   category: text;
+   createdAt: int;
+   displayOrder: nat;
+   id: GalleryImageId;
+   url: text;
+ };
+type FilmInput = 
+ record {
+   category: FilmCategory;
+   description: text;
+   featured: bool;
+   thumbnailUrl: text;
+   title: text;
+   youtubeUrl: text;
+ };
+type FilmId = nat;
+type FilmCategory = 
+ variant {
+   coupleTeaser;
+   engagement;
+   reel;
+   weddingHighlights;
+ };
+type Film = 
+ record {
+   category: FilmCategory;
+   createdAt: int;
+   description: text;
+   featured: bool;
+   id: FilmId;
+   thumbnailUrl: text;
+   title: text;
+   youtubeUrl: text;
+ };
+type ContactInquiry = 
+ record {
+   createdAt: int;
+   email: text;
+   eventDate: text;
+   id: InquiryId;
+   message: text;
+   name: text;
+   packageInterest: text;
+   phone: text;
+ };
+service : {
+  _initializeAccessControl: () -> ();
+  assignCallerUserRole: (user: principal, role: UserRole) -> ();
+  createFilm: (input: FilmInput) -> (Film);
+  createGalleryImage: (input: GalleryImageInput) -> (GalleryImage);
+  createPackage: (input: PackageInput) -> (Package);
+  createTestimonial: (input: TestimonialInput) -> (Testimonial);
+  deleteFilm: (id: FilmId) -> ();
+  deleteGalleryImage: (id: GalleryImageId) -> ();
+  deleteInquiry: (id: InquiryId) -> ();
+  deletePackage: (id: PackageId) -> ();
+  deleteTestimonial: (id: TestimonialId) -> ();
+  getCallerUserRole: () -> (UserRole) query;
+  getFeaturedFilms: () -> (vec Film) query;
+  getFeaturedTestimonials: () -> (vec Testimonial) query;
+  getFilm: (id: FilmId) -> (opt Film) query;
+  getFilms: () -> (vec Film) query;
+  getGalleryImages: () -> (vec GalleryImage) query;
+  getGalleryImagesByCategory: (category: text) -> (vec GalleryImage) query;
+  getInquiries: () -> (vec ContactInquiry) query;
+  getPackages: () -> (vec Package) query;
+  getTestimonials: () -> (vec Testimonial) query;
+  isCallerAdmin: () -> (bool) query;
+  submitInquiry: (input: InquiryInput) -> (ContactInquiry);
+  updateFilm: (id: FilmId, input: FilmInput) -> (bool);
+  updateGalleryImage: (id: GalleryImageId, input: GalleryImageInput) ->
+   (bool);
+  updatePackage: (id: PackageId, input: PackageInput) -> (bool);
+  updateTestimonial: (id: TestimonialId, input: TestimonialInput) -> (bool);
+}

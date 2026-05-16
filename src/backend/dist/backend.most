@@ -1,0 +1,108 @@
+// Version: 1.0.0
+type ContactInquiry__511543212 =
+  {
+    createdAt : Int;
+    email : Text;
+    eventDate : Text;
+    id : InquiryId__1064656012;
+    message : Text;
+    name : Text;
+    packageInterest : Text;
+    phone : Text
+  };
+type Data__791452850<K, V> =
+  {var count : Nat__490723111; kvs : [var ?(K, V)]};
+type FilmCategory__627213880 =
+  {#coupleTeaser; #engagement; #reel; #weddingHighlights};
+type FilmId__473560144 = Nat;
+type Film__72935579 =
+  {
+    category : FilmCategory__627213880;
+    createdAt : Int;
+    description : Text;
+    featured : Bool;
+    id : FilmId__473560144;
+    thumbnailUrl : Text;
+    title : Text;
+    youtubeUrl : Text
+  };
+type GalleryImageId__344554760 = Nat;
+type GalleryImage__146433455 =
+  {
+    alt : Text;
+    caption : Text;
+    category : Text;
+    createdAt : Int;
+    displayOrder : Nat;
+    id : GalleryImageId__344554760;
+    url : Text
+  };
+type InquiryId__1064656012 = Nat;
+type Internal__8484328<K, V> =
+  {children : [var ?Node__46230540<K, V>]; data : Data__791452850<K, V>};
+type Leaf__809889148<K, V> = {data : Data__791452850<K, V>};
+type List__415060402<T> = List__790383201<T>;
+type List__790383201<T> =
+  {
+    var blockIndex : Nat__490723111;
+    var blocks : [var [var ?T]];
+    var elementIndex : Nat__490723111
+  };
+type Map__158565046<K, V> = Map__297112838<K, V>;
+type Map__297112838<K, V> =
+  {var root : Node__46230540<K, V>; var size : Nat__490723111};
+type Map__605269027<K, V> = Map__158565046<K, V>;
+type Nat__490723111 = Nat__920180692;
+type Nat__920180692 = Nat;
+type Node__46230540<K, V> =
+  {#internal : Internal__8484328<K, V>; #leaf : Leaf__809889148<K, V>};
+type PackageId__848840463 = Nat;
+type Package__775230831 =
+  {
+    features : [Text];
+    highlighted : Bool;
+    id : PackageId__848840463;
+    name : Text;
+    price : Text
+  };
+type TestimonialId__1026039158 = Nat;
+type Testimonial__682259786 =
+  {
+    createdAt : Int;
+    featured : Bool;
+    id : TestimonialId__1026039158;
+    name : Text;
+    photoUrl : Text;
+    quote : Text;
+    rating : Nat
+  };
+type UserRole__1073662873 = {#admin; #guest; #user};
+actor {
+  stable accessControlState :
+    {
+      var adminAssigned : Bool;
+      userRoles : Map__605269027<Principal, UserRole__1073662873>
+    };
+  stable filmsState :
+    {counter : {var nextId : Nat}; films : List__415060402<Film__72935579>};
+  stable galleryState :
+    {
+      counter : {var nextId : Nat};
+      images : List__415060402<GalleryImage__146433455>
+    };
+  stable inquiryState :
+    {
+      counter : {var nextId : Nat};
+      inquiries : List__415060402<ContactInquiry__511543212>
+    };
+  stable packagesState :
+    {
+      counter : {var nextId : Nat};
+      packages : List__415060402<Package__775230831>
+    };
+  stable testimonialsState :
+    {
+      counter : {var nextId : Nat};
+      testimonials : List__415060402<Testimonial__682259786>
+    }
+};
