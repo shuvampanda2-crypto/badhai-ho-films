@@ -220,6 +220,14 @@ export function Layout({ children }: LayoutProps) {
               <p className="font-body text-xs tracking-[0.2em] uppercase text-muted-foreground mb-4">
                 Get In Touch
               </p>
+              <div className="flex justify-center mb-6">
+                <img
+                  src="/assets/logo_footer.png"
+                  alt="Badhai Ho Films"
+                  className="w-auto object-contain mx-auto"
+                  style={{ maxWidth: "280px", maxHeight: "160px" }}
+                />
+              </div>
               <ul className="space-y-3">
                 <li className="flex items-center gap-3 text-sm text-foreground/70">
                   <Phone className="h-4 w-4 text-[#D4AF37] shrink-0" />

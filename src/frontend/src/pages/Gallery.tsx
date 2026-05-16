@@ -333,17 +333,9 @@ export function Gallery() {
                   <div className="gallery-bracket-tl" />
                   <div className="gallery-bracket-br" />
 
-                  {/* Slide-up info bar */}
+                  {/* Slide-up info bar — category only, no names */}
                   <div className="gallery-info">
-                    <div className="flex items-end justify-between gap-2">
-                      <div className="min-w-0">
-                        <p className="font-display text-sm text-white font-semibold leading-tight truncate">
-                          {item.coupleName}
-                        </p>
-                        <p className="font-body text-xs text-white/70 mt-0.5 truncate">
-                          {item.caption}
-                        </p>
-                      </div>
+                    <div className="flex items-end justify-end gap-2">
                       <span className="shrink-0 px-2 py-0.5 rounded-full text-[9px] font-body tracking-widest uppercase bg-[#D4AF37]/20 border border-[#D4AF37]/40 text-[#D4AF37]">
                         {item.category}
                       </span>
@@ -439,15 +431,9 @@ export function Gallery() {
                   <div className="absolute inset-2 border border-[#D4AF37]/20 pointer-events-none" />
                 </div>
 
-                {/* Caption */}
+                {/* Caption — category only, no couple names */}
                 <div className="mt-5 text-center">
-                  <h2 className="font-display text-xl md:text-2xl font-bold text-foreground">
-                    {lightboxItem.coupleName}
-                  </h2>
-                  <p className="font-body text-sm text-muted-foreground mt-1">
-                    {lightboxItem.caption}
-                  </p>
-                  <p className="font-body text-xs text-[#D4AF37] tracking-[0.2em] uppercase mt-2">
+                  <p className="font-body text-xs text-[#D4AF37] tracking-[0.2em] uppercase">
                     {lightboxItem.category}
                   </p>
                 </div>

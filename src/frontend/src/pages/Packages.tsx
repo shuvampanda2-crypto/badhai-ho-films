@@ -1,5 +1,4 @@
 import { Layout } from "@/components/Layout";
-import { usePackages } from "@/hooks/usePackages";
 import { Link } from "@tanstack/react-router";
 import { Check } from "lucide-react";
 import { motion } from "motion/react";
@@ -13,8 +12,7 @@ const fallbackPackages = [
     features: [
       "Wedding Photography",
       "8 Hours Coverage",
-      "500+ Edited Photos",
-      "Online Gallery Access",
+      "300+ Edited Photos",
       "USB Drive Delivery",
       "Basic Retouching",
     ],
@@ -28,7 +26,7 @@ const fallbackPackages = [
       "Wedding Photography + Film",
       "Full Day Coverage",
       "Cinematic Highlight Film (10 min)",
-      "1000+ Edited Photos",
+      "500+ Edited Photos",
       "Aerial Drone Shots",
       "Same-Day Edit Reel",
       "Premium Album",
@@ -54,11 +52,10 @@ const fallbackPackages = [
   },
 ];
 
-export function Packages() {
-  const { data: packagesData } = usePackages();
-  const packages =
-    packagesData && packagesData.length > 0 ? packagesData : fallbackPackages;
+// Packages are hardcoded — never fetched from backend to prevent stale canister overrides
+const packages = fallbackPackages;
 
+export function Packages() {
   return (
     <Layout>
       <div className="pt-24 pb-20 lg:pt-32 lg:pb-28">

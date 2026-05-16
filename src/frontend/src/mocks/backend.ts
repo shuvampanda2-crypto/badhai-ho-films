@@ -239,7 +239,7 @@ export const mockBackend: backendInterface = {
       features: [
         "Wedding Photography (8 hrs)",
         "Cinematic Wedding Film",
-        "250+ Edited Photos",
+        "300+ Edited Photos",
         "Online Gallery",
         "USB Delivery",
       ],
@@ -253,7 +253,7 @@ export const mockBackend: backendInterface = {
         "Wedding Photography (Full Day)",
         "Cinematic Wedding Film + Teaser",
         "Pre-Wedding Shoot (2 hrs)",
-        "400+ Edited Photos",
+        "500+ Edited Photos",
         "Social Media Reels",
         "Premium Album",
         "Online Gallery",

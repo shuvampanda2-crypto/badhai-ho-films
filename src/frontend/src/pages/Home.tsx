@@ -4,7 +4,6 @@ import { Button } from "@/components/ui/button";
 import { useFeaturedFilms } from "@/hooks/useFilms";
 import { useGalleryImages } from "@/hooks/useGallery";
 import { useSubmitInquiry } from "@/hooks/useInquiry";
-import { usePackages } from "@/hooks/usePackages";
 import { useFeaturedTestimonials } from "@/hooks/useTestimonials";
 import { Link } from "@tanstack/react-router";
 import {
@@ -16,6 +15,7 @@ import {
   Heart,
   Mail,
   MapPin,
+  Pause,
   Phone,
   Play,
   Sparkles,
@@ -73,181 +73,29 @@ const services = [
   },
 ];
 
-const fallbackFilms = [
-  {
-    id: 1n,
-    title: "Varun & Surbhi",
-    description: "A timeless love story from Bhubaneswar",
-    thumbnailUrl: "/assets/generated/hero-wedding.dim_1920x1080.jpg",
-    youtubeUrl: "dQw4w9WgXcQ",
-    featured: true,
-    category: "weddingHighlights",
-    createdAt: 0n,
-  },
-  {
-    id: 2n,
-    title: "Rhea & Rohan",
-    description: "Eternal bonds, eternal memories",
-    thumbnailUrl: "/assets/generated/hero-wedding.dim_1920x1080.jpg",
-    youtubeUrl: "dQw4w9WgXcQ",
-    featured: true,
-    category: "weddingHighlights",
-    createdAt: 0n,
-  },
-  {
-    id: 3n,
-    title: "Anjali & Vikram",
-    description: "Two souls, one beautiful journey",
-    thumbnailUrl: "/assets/generated/hero-wedding.dim_1920x1080.jpg",
-    youtubeUrl: "dQw4w9WgXcQ",
-    featured: true,
-    category: "engagement",
-    createdAt: 0n,
-  },
-  {
-    id: 4n,
-    title: "Priya & Arjun",
-    description: "Love written in golden light",
-    thumbnailUrl: "/assets/generated/hero-wedding.dim_1920x1080.jpg",
-    youtubeUrl: "dQw4w9WgXcQ",
-    featured: true,
-    category: "coupleTeasers",
-    createdAt: 0n,
-  },
-  {
-    id: 5n,
-    title: "Neha & Sahil",
-    description: "A fairy-tale ceremony in Odisha",
-    thumbnailUrl: "/assets/generated/hero-wedding.dim_1920x1080.jpg",
-    youtubeUrl: "dQw4w9WgXcQ",
-    featured: true,
-    category: "weddingHighlights",
-    createdAt: 0n,
-  },
-  {
-    id: 6n,
-    title: "Meera & Karan",
-    description: "Where tradition meets cinematic art",
-    thumbnailUrl: "/assets/generated/hero-wedding.dim_1920x1080.jpg",
-    youtubeUrl: "dQw4w9WgXcQ",
-    featured: false,
-    category: "reels",
-    createdAt: 0n,
-  },
-  {
-    id: 7n,
-    title: "Divya & Raj",
-    description: "An engagement story to remember",
-    thumbnailUrl: "/assets/generated/hero-wedding.dim_1920x1080.jpg",
-    youtubeUrl: "dQw4w9WgXcQ",
-    featured: false,
-    category: "engagement",
-    createdAt: 0n,
-  },
-  {
-    id: 8n,
-    title: "Sunita & Dev",
-    description: "Blessings, dance, and pure emotion",
-    thumbnailUrl: "/assets/generated/hero-wedding.dim_1920x1080.jpg",
-    youtubeUrl: "dQw4w9WgXcQ",
-    featured: false,
-    category: "coupleTeasers",
-    createdAt: 0n,
-  },
-];
+const fallbackFilms: {
+  id: bigint;
+  title: string;
+  description: string;
+  thumbnailUrl: string;
+  youtubeUrl: string;
+  featured: boolean;
+  category: string;
+  createdAt: bigint;
+}[] = [];
 
 const galleryItems = [
-  {
-    id: 1,
-    label: "Varun & Surbhi",
-    h: "h-56",
-    img: "/assets/images/wedding1.jpg",
-  },
-  {
-    id: 2,
-    label: "Rhea & Rohan",
-    h: "h-44",
-    img: "/assets/images/wedding2.jpg",
-  },
-  {
-    id: 3,
-    label: "Anjali & Vikram",
-    h: "h-64",
-    img: "/assets/images/wedding3.jpg",
-  },
-  {
-    id: 4,
-    label: "Priya & Arjun",
-    h: "h-48",
-    img: "/assets/images/wedding4.jpg",
-  },
-  {
-    id: 5,
-    label: "Meera & Karan",
-    h: "h-52",
-    img: "/assets/images/wedding5.jpg",
-  },
-  {
-    id: 6,
-    label: "Neha & Sahil",
-    h: "h-44",
-    img: "/assets/images/wedding6.jpg",
-  },
-  {
-    id: 7,
-    label: "Divya & Raj",
-    h: "h-60",
-    img: "/assets/images/wedding7.jpg",
-  },
-  {
-    id: 8,
-    label: "Sunita & Dev",
-    h: "h-48",
-    img: "/assets/images/wedding8.jpg",
-  },
+  { id: 1, h: "h-56", img: "/assets/images/wedding1.jpg" },
+  { id: 2, h: "h-44", img: "/assets/images/wedding2.jpg" },
+  { id: 3, h: "h-64", img: "/assets/images/wedding3.jpg" },
+  { id: 4, h: "h-48", img: "/assets/images/wedding4.jpg" },
+  { id: 5, h: "h-52", img: "/assets/images/wedding5.jpg" },
+  { id: 6, h: "h-44", img: "/assets/images/wedding6.jpg" },
+  { id: 7, h: "h-60", img: "/assets/images/wedding7.jpg" },
+  { id: 8, h: "h-48", img: "/assets/images/wedding8.jpg" },
 ];
 
 const fallbackTestimonials = [
-  {
-    id: 1n,
-    name: "Priya & Arjun",
-    quote:
-      "Badhai Ho captured our wedding like a Bollywood film. Every frame was pure magic. We cry tears of joy every time we watch our wedding film.",
-    rating: 5n,
-    photoUrl: "",
-    featured: true,
-    createdAt: 0n,
-  },
-  {
-    id: 2n,
-    name: "Meera & Karan",
-    quote:
-      "The team was so professional and creative. They made us feel completely at ease. The photos are absolutely breathtaking — beyond our wildest expectations.",
-    rating: 5n,
-    photoUrl: "",
-    featured: true,
-    createdAt: 0n,
-  },
-  {
-    id: 3n,
-    name: "Sneha & Rohit",
-    quote:
-      "Our wedding film is a masterpiece. Friends and family still cannot believe how cinematic it looks. Truly the best decision we made for our wedding.",
-    rating: 5n,
-    photoUrl: "",
-    featured: true,
-    createdAt: 0n,
-  },
-  {
-    id: 4n,
-    name: "Divya & Raj",
-    quote:
-      "From pre-wedding to the reception, they captured emotions we did not even know were on camera. The film makes us relive the most beautiful day every time.",
-    rating: 5n,
-    photoUrl: "",
-    featured: true,
-    createdAt: 0n,
-  },
   {
     id: 5n,
     name: "Sunita & Dev",
@@ -255,18 +103,23 @@ const fallbackTestimonials = [
       "The team blended into our celebration so naturally. Every candid moment, every tear of happiness — all preserved forever. Highly recommended!",
     rating: 5n,
     photoUrl: "",
-    featured: false,
+    featured: true,
     createdAt: 0n,
   },
+];
+
+const featuredFilmsStatic = [
   {
-    id: 6n,
-    name: "Neha & Sahil",
-    quote:
-      "Their cinematic style is unmatched in Odisha. Our wedding film felt like a movie we actually starred in. The editing, the music, the emotions — perfect.",
-    rating: 5n,
-    photoUrl: "",
-    featured: false,
-    createdAt: 0n,
+    id: 1,
+    src: "/assets/vanani_yashas_mehendi_up_2-019e3074-e391-752a-9287-8c0ed3500306.mp4",
+  },
+  {
+    id: 2,
+    src: "/assets/slide_2.mp4",
+  },
+  {
+    id: 3,
+    src: "/assets/couple_video_1.mp4",
   },
 ];
 
@@ -279,8 +132,7 @@ const fallbackPackages = [
     features: [
       "Wedding Photography",
       "8 Hours Coverage",
-      "500+ Edited Photos",
-      "Online Gallery",
+      "300+ Edited Photos",
       "USB Drive Delivery",
     ],
   },
@@ -293,7 +145,7 @@ const fallbackPackages = [
       "Wedding Photography + Film",
       "Full Day Coverage",
       "Cinematic Highlight Film",
-      "1000+ Edited Photos",
+      "500+ Edited Photos",
       "Drone Shots",
       "Same-Day Edit Reel",
     ],
@@ -315,7 +167,7 @@ const fallbackPackages = [
   },
 ];
 
-const categoryLabels: Record<string, string> = {
+const _categoryLabels: Record<string, string> = {
   weddingHighlights: "Wedding Highlights",
   engagement: "Engagement Films",
   coupleTeasers: "Couple Teasers",
@@ -324,7 +176,12 @@ const categoryLabels: Record<string, string> = {
 
 const reelPreviews = [
   { id: 1, label: "Wedding Highlight 2024" },
-  { id: 2, label: "Engagement Story" },
+  {
+    id: 2,
+    label: "Engagement Story",
+    videoSrc:
+      "/assets/wedding_reels_3-019e3074-dbae-77a1-b229-3c2009e9d657.mp4",
+  },
   { id: 3, label: "Couple Teaser" },
   { id: 4, label: "Reception Film" },
   { id: 5, label: "Pre-Wedding Reel" },
@@ -390,6 +247,90 @@ function VideoModal({
   );
 }
 
+// ── Featured Films Grid (with inline Play/Pause) ─────────────────────────────
+
+function FeaturedFilmsGrid() {
+  const [playingIds, setPlayingIds] = useState<Record<number, boolean>>({});
+  const videoRefs = useRef<Record<number, HTMLVideoElement | null>>({});
+
+  function togglePlay(id: number) {
+    const video = videoRefs.current[id];
+    if (!video) return;
+    if (video.paused) {
+      video.play();
+      setPlayingIds((prev) => ({ ...prev, [id]: true }));
+    } else {
+      video.pause();
+      setPlayingIds((prev) => ({ ...prev, [id]: false }));
+    }
+  }
+
+  return (
+    <div
+      className="grid grid-cols-1 sm:grid-cols-3 gap-5"
+      data-ocid="films.list"
+    >
+      {featuredFilmsStatic.map((film, i) => {
+        const isPlaying = !!playingIds[film.id];
+        return (
+          <motion.div
+            key={film.id}
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ delay: i * 0.1, duration: 0.6 }}
+            data-ocid={`films.item.${i + 1}`}
+            className="relative group overflow-hidden aspect-[3/4] bg-[#0F0F0F]"
+          >
+            <video
+              ref={(el) => {
+                videoRefs.current[film.id] = el;
+              }}
+              src={film.src}
+              playsInline
+              className="w-full h-full object-cover opacity-90 group-hover:opacity-100 transition-all duration-700"
+              onEnded={() =>
+                setPlayingIds((prev) => ({ ...prev, [film.id]: false }))
+              }
+            >
+              <track kind="captions" />
+            </video>
+            <div className="absolute inset-0 bg-gradient-to-t from-[#0F0F0F]/70 via-transparent to-transparent" />
+            {/* Play / Pause overlay — always visible, larger on hover */}
+            <button
+              type="button"
+              aria-label={isPlaying ? "Pause video" : "Play video"}
+              data-ocid={`films.play_button.${i + 1}`}
+              onClick={() => togglePlay(film.id)}
+              className="absolute inset-0 flex items-center justify-center cursor-pointer focus:outline-none"
+            >
+              <div
+                className={`w-16 h-16 rounded-full border-2 border-[#D4AF37]/80 flex items-center justify-center backdrop-blur-sm shadow-[0_0_24px_rgba(212,175,55,0.35)] transition-all duration-300 ${
+                  isPlaying
+                    ? "bg-[#0F0F0F]/50 opacity-0 group-hover:opacity-100"
+                    : "bg-[#0F0F0F]/40 opacity-100"
+                }`}
+              >
+                {isPlaying ? (
+                  <Pause
+                    className="h-7 w-7 text-[#D4AF37]"
+                    fill="currentColor"
+                  />
+                ) : (
+                  <Play
+                    className="h-7 w-7 text-[#D4AF37] ml-1"
+                    fill="currentColor"
+                  />
+                )}
+              </div>
+            </button>
+          </motion.div>
+        );
+      })}
+    </div>
+  );
+}
+
 // ── Main Component ────────────────────────────────────────────────────────────
 
 export function Home() {
@@ -409,18 +350,17 @@ export function Home() {
 
   const { data: featuredFilms } = useFeaturedFilms();
   const { data: testimonials } = useFeaturedTestimonials();
-  const { data: packages } = usePackages();
   const { data: galleryData } = useGalleryImages();
   const submitInquiry = useSubmitInquiry();
 
-  const films =
+  const _films =
     featuredFilms && featuredFilms.length > 0 ? featuredFilms : fallbackFilms;
-  const displayTestimonials =
+  const _displayTestimonials =
     testimonials && testimonials.length > 0
       ? testimonials
       : fallbackTestimonials;
-  const displayPackages =
-    packages && packages.length > 0 ? packages : fallbackPackages;
+  // Packages are hardcoded — never fetched from backend to prevent stale canister overrides
+  const displayPackages = fallbackPackages;
   // galleryData not used directly; galleryItems is always the fallback visual
   void galleryData;
 
@@ -460,6 +400,9 @@ export function Home() {
         message: formData.message,
       });
       setSubmitSuccess(true);
+      const whatsappMessage = `New Inquiry from Website:\n\nName: ${formData.name}\nEmail: ${formData.email}\nPhone: ${formData.phone}\nEvent Date: ${formData.eventDate}\nPackage Interest: ${formData.packageInterest}\nMessage: ${formData.message}`;
+      const whatsappUrl = `https://wa.me/919776376441?text=${encodeURIComponent(whatsappMessage)}`;
+      window.open(whatsappUrl, "_blank");
       setFormData({
         name: "",
         email: "",
@@ -485,9 +428,10 @@ export function Home() {
           loop
           muted
           playsInline
+          preload="auto"
           className="absolute inset-0 w-full h-full object-cover"
         >
-          <source src="/assets/video_project_1.mp4" type="video/mp4" />
+          <source src="/assets/jhumka_1_1.mp4" type="video/mp4" />
         </video>
         <div className="absolute inset-0 bg-gradient-to-b from-background/60 via-background/30 to-background" />
         <div className="relative z-10 text-center px-4 max-w-5xl mx-auto">
@@ -555,6 +499,100 @@ export function Home() {
         </motion.button>
       </section>
 
+      {/* ── 1b. STAY CONNECTED ───────────────────────────────────────────── */}
+      <section
+        id="instagram"
+        className="py-20 lg:py-28 bg-background"
+        data-ocid="instagram.section"
+      >
+        <div className="container mx-auto px-4 lg:px-8">
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.7 }}
+            className="text-center mb-14"
+          >
+            <div className="flex justify-center mb-4">
+              <SiInstagram className="h-10 w-10 text-primary" />
+            </div>
+            <p className="font-body text-xs text-primary tracking-[0.3em] uppercase mb-3">
+              Stay Connected
+            </p>
+            <h2 className="font-display text-4xl lg:text-5xl font-bold text-foreground mb-4">
+              Follow Our Work
+            </h2>
+            <a
+              href="https://www.instagram.com/badhaihofilms?igsh=MWk3MW1oNGZ3YnBjcw%3D%3D&utm_source=qr"
+              target="_blank"
+              rel="noopener noreferrer"
+              data-ocid="instagram.handle_link"
+              className="font-body text-primary hover:text-primary/80 transition-smooth text-sm tracking-widest uppercase"
+            >
+              @badhaihofilms
+            </a>
+          </motion.div>
+          <div
+            className="overflow-x-auto pb-4"
+            data-ocid="instagram.reels_slider"
+          >
+            <div className="flex gap-4 min-w-max">
+              {reelPreviews.map((reel, i) => (
+                <motion.div
+                  key={reel.id}
+                  initial={{ opacity: 0, x: 20 }}
+                  whileInView={{ opacity: 1, x: 0 }}
+                  viewport={{ once: true }}
+                  transition={{ delay: i * 0.08 }}
+                  data-ocid={`instagram.reel.${i + 1}`}
+                  className="relative w-48 h-80 shrink-0 overflow-hidden border border-border group cursor-pointer hover:border-primary/60 transition-smooth"
+                >
+                  {reel.id === 1 || reel.videoSrc ? (
+                    <video
+                      src={reel.videoSrc ?? "/assets/video_project_1.mp4"}
+                      autoPlay
+                      muted
+                      loop
+                      playsInline
+                      className="w-full h-full object-cover"
+                    />
+                  ) : (
+                    <img
+                      src="/assets/generated/hero-wedding.dim_1920x1080.jpg"
+                      alt={reel.label}
+                      className="w-full h-full object-cover opacity-50 group-hover:opacity-70 group-hover:scale-105 transition-all duration-700"
+                    />
+                  )}
+                  <div className="absolute inset-0 bg-gradient-to-t from-background/80 to-transparent" />
+                  {reel.id !== 1 && !reel.videoSrc && (
+                    <div className="absolute inset-0 flex items-center justify-center">
+                      <div className="w-10 h-10 rounded-full border border-primary/60 flex items-center justify-center bg-background/30 backdrop-blur-sm group-hover:bg-primary/20 transition-smooth">
+                        <Play className="h-4 w-4 text-primary ml-0.5" />
+                      </div>
+                    </div>
+                  )}
+                  <p className="absolute bottom-3 left-3 right-3 font-body text-xs text-foreground/80 truncate">
+                    {reel.label}
+                  </p>
+                </motion.div>
+              ))}
+            </div>
+          </div>
+          <div className="text-center mt-10">
+            <a
+              href="https://www.instagram.com/badhaihofilms?igsh=MWk3MW1oNGZ3YnBjcw%3D%3D&utm_source=qr"
+              target="_blank"
+              rel="noopener noreferrer"
+              data-ocid="instagram.follow_button"
+              className="inline-flex items-center gap-2 px-8 py-3 bg-primary text-primary-foreground font-body text-sm font-semibold tracking-widest uppercase transition-smooth hover:bg-primary/90"
+            >
+              <SiInstagram className="h-4 w-4" />
+              Follow on Instagram
+            </a>
+          </div>
+        </div>
+      </section>
+
       {/* ── 2. FEATURED FILMS ────────────────────────────────────────────── */}
       <section
         ref={filmsRef}
@@ -581,64 +619,7 @@ export function Home() {
               genuine emotion, and timeless beauty.
             </p>
           </motion.div>
-          <div
-            className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4"
-            data-ocid="films.list"
-          >
-            {films.slice(0, 4).map((film, i) => (
-              <motion.button
-                key={film.id.toString()}
-                type="button"
-                initial={{ opacity: 0, y: 30 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
-                transition={{ delay: (i % 4) * 0.1, duration: 0.6 }}
-                data-ocid={`films.item.${i + 1}`}
-                onClick={() => {
-                  const raw = film.youtubeUrl as string;
-                  const match = raw.match(
-                    /(?:youtu\.be\/|v\/|watch\?v=|embed\/)([^&?#]+)/,
-                  );
-                  setActiveVideo(match ? match[1] : raw);
-                }}
-                className="group relative overflow-hidden cursor-pointer bg-card aspect-[4/3] text-left"
-              >
-                <img
-                  src={
-                    film.thumbnailUrl ||
-                    "/assets/generated/hero-wedding.dim_1920x1080.jpg"
-                  }
-                  alt={film.title}
-                  className="w-full h-full object-cover transition-all duration-700 group-hover:scale-105"
-                />
-                <div className="absolute inset-0 bg-gradient-to-t from-background/90 via-background/20 to-transparent" />
-                <div className="absolute inset-0 flex items-center justify-center">
-                  <div className="w-12 h-12 rounded-full border-2 border-primary flex items-center justify-center bg-background/30 backdrop-blur-sm transition-smooth group-hover:bg-primary group-hover:scale-110">
-                    <Play className="h-4 w-4 text-primary group-hover:text-primary-foreground ml-0.5" />
-                  </div>
-                </div>
-                <div className="absolute bottom-0 left-0 right-0 p-4">
-                  <Badge
-                    variant="outline"
-                    className="mb-2 text-[10px] border-primary/50 text-primary bg-background/60 backdrop-blur-sm"
-                  >
-                    {categoryLabels[
-                      typeof film.category === "string"
-                        ? film.category
-                        : (Object.keys(film.category as object)[0] ??
-                          "weddingHighlights")
-                    ] ?? "Wedding Film"}
-                  </Badge>
-                  <p className="font-display text-base font-bold text-foreground">
-                    {film.title}
-                  </p>
-                  <p className="text-xs text-muted-foreground mt-0.5 font-body">
-                    {film.description}
-                  </p>
-                </div>
-              </motion.button>
-            ))}
-          </div>
+          <FeaturedFilmsGrid />
           <div className="text-center mt-10">
             <Link
               to="/films"
@@ -743,13 +724,9 @@ export function Home() {
               >
                 <img
                   src={item.img}
-                  alt={item.label}
+                  alt="Wedding memory"
                   className="w-full h-full object-cover opacity-80 group-hover:opacity-100 group-hover:scale-105 transition-all duration-700"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-background/80 to-transparent" />
-                <p className="absolute bottom-3 left-3 right-3 font-display text-xs font-semibold text-foreground/90 truncate">
-                  {item.label}
-                </p>
               </motion.div>
             ))}
           </div>
@@ -830,39 +807,27 @@ export function Home() {
               transition={{ duration: 0.8, delay: 0.2 }}
               className="space-y-5"
             >
-              <div className="relative border border-primary/40 overflow-hidden">
+              {/* Owner portrait — premium cinematic treatment */}
+              <div className="relative rounded-xl overflow-hidden border border-[#D4AF37]/40 shadow-[0_0_50px_rgba(212,175,55,0.12)]">
                 <img
-                  src="/assets/generated/hero-wedding.dim_1920x1080.jpg"
-                  alt="Cinematic wedding moment"
-                  className="w-full aspect-[4/3] object-cover opacity-70"
+                  src="/assets/images/owner-photo.jpg"
+                  alt="Creative Director – Badhai Ho Wedding & Event Films"
+                  className="w-full aspect-[4/3] object-cover"
                 />
-                <div className="absolute inset-0 bg-gradient-to-br from-background/50 via-transparent to-primary/10" />
-                <p className="absolute bottom-4 left-4 right-4 font-display text-lg italic text-foreground/90">
+                <div className="absolute inset-0 bg-gradient-to-t from-[#0F0F0F]/80 via-[#0F0F0F]/20 to-transparent" />
+                {/* Glass info overlay */}
+                <div className="absolute bottom-0 left-0 right-0 px-5 py-4 backdrop-blur-sm bg-[#0F0F0F]/40 border-t border-[#D4AF37]/25">
+                  <p className="font-display text-sm font-bold text-[#FFFFFF] mb-0.5">
+                    Our Creative Director
+                  </p>
+                  <p className="font-body text-[11px] text-[#B0B0B0] tracking-widest uppercase">
+                    16+ Years · Cinematic Storyteller
+                  </p>
+                </div>
+                {/* Quote ribbon */}
+                <p className="absolute top-4 left-4 right-4 font-display text-sm italic text-[#D4AF37]/90 leading-snug drop-shadow-md">
                   &ldquo;Let&rsquo;s Celebrate The Occasion&rdquo;
                 </p>
-              </div>
-              <div className="grid grid-cols-3 gap-3">
-                {[
-                  { num: "16+", label: "Years Experience" },
-                  { num: "500+", label: "Weddings" },
-                  { num: "1000+", label: "Happy Families" },
-                ].map((stat, i) => (
-                  <motion.div
-                    key={stat.label}
-                    initial={{ opacity: 0, y: 15 }}
-                    whileInView={{ opacity: 1, y: 0 }}
-                    viewport={{ once: true }}
-                    transition={{ delay: 0.4 + i * 0.1 }}
-                    className="bg-card border border-primary/30 p-4 text-center"
-                  >
-                    <p className="font-display text-2xl font-bold text-primary">
-                      {stat.num}
-                    </p>
-                    <p className="font-body text-[10px] text-muted-foreground tracking-wider uppercase mt-1">
-                      {stat.label}
-                    </p>
-                  </motion.div>
-                ))}
               </div>
             </motion.div>
           </div>
@@ -893,10 +858,10 @@ export function Home() {
             </h2>
           </motion.div>
           <div
-            className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5"
+            className="flex flex-wrap justify-center gap-5"
             data-ocid="testimonials.list"
           >
-            {displayTestimonials.slice(0, 6).map((t, i) => (
+            {fallbackTestimonials.slice(0, 1).map((t, i) => (
               <motion.div
                 key={t.id.toString()}
                 initial={{ opacity: 0, y: 20 }}
@@ -904,7 +869,7 @@ export function Home() {
                 viewport={{ once: true }}
                 transition={{ delay: (i % 3) * 0.1 }}
                 data-ocid={`testimonials.item.${i + 1}`}
-                className="bg-card border border-border p-6 hover:border-primary/40 transition-smooth"
+                className="bg-card border border-border p-6 hover:border-primary/40 transition-smooth max-w-xl w-full"
               >
                 <div className="flex gap-0.5 mb-4">
                   {Array.from({ length: Number(t.rating) }, (_, s) => (
@@ -1008,89 +973,6 @@ export function Home() {
                 </button>
               </motion.div>
             ))}
-          </div>
-        </div>
-      </section>
-
-      <GoldDivider text="Follow Our Journey" />
-
-      {/* ── 8. INSTAGRAM / REELS ─────────────────────────────────────────── */}
-      <section
-        id="instagram"
-        className="py-20 lg:py-28 bg-background"
-        data-ocid="instagram.section"
-      >
-        <div className="container mx-auto px-4 lg:px-8">
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.7 }}
-            className="text-center mb-14"
-          >
-            <div className="flex justify-center mb-4">
-              <SiInstagram className="h-10 w-10 text-primary" />
-            </div>
-            <p className="font-body text-xs text-primary tracking-[0.3em] uppercase mb-3">
-              Stay Connected
-            </p>
-            <h2 className="font-display text-4xl lg:text-5xl font-bold text-foreground mb-4">
-              Follow Our Work
-            </h2>
-            <a
-              href="https://www.instagram.com/badhaihofilms?igsh=MWk3MW1oNGZ3YnBjcw%3D%3D&utm_source=qr"
-              target="_blank"
-              rel="noopener noreferrer"
-              data-ocid="instagram.handle_link"
-              className="font-body text-primary hover:text-primary/80 transition-smooth text-sm tracking-widest uppercase"
-            >
-              @badhaihofilms
-            </a>
-          </motion.div>
-          <div
-            className="overflow-x-auto pb-4"
-            data-ocid="instagram.reels_slider"
-          >
-            <div className="flex gap-4 min-w-max">
-              {reelPreviews.map((reel, i) => (
-                <motion.div
-                  key={reel.id}
-                  initial={{ opacity: 0, x: 20 }}
-                  whileInView={{ opacity: 1, x: 0 }}
-                  viewport={{ once: true }}
-                  transition={{ delay: i * 0.08 }}
-                  data-ocid={`instagram.reel.${i + 1}`}
-                  className="relative w-48 h-80 shrink-0 overflow-hidden border border-border group cursor-pointer hover:border-primary/60 transition-smooth"
-                >
-                  <img
-                    src="/assets/generated/hero-wedding.dim_1920x1080.jpg"
-                    alt={reel.label}
-                    className="w-full h-full object-cover opacity-50 group-hover:opacity-70 group-hover:scale-105 transition-all duration-700"
-                  />
-                  <div className="absolute inset-0 bg-gradient-to-t from-background/80 to-transparent" />
-                  <div className="absolute inset-0 flex items-center justify-center">
-                    <div className="w-10 h-10 rounded-full border border-primary/60 flex items-center justify-center bg-background/30 backdrop-blur-sm group-hover:bg-primary/20 transition-smooth">
-                      <Play className="h-4 w-4 text-primary ml-0.5" />
-                    </div>
-                  </div>
-                  <p className="absolute bottom-3 left-3 right-3 font-body text-xs text-foreground/80 truncate">
-                    {reel.label}
-                  </p>
-                </motion.div>
-              ))}
-            </div>
-          </div>
-          <div className="text-center mt-10">
-            <a
-              href="https://www.instagram.com/badhaihofilms?igsh=MWk3MW1oNGZ3YnBjcw%3D%3D&utm_source=qr"
-              target="_blank"
-              rel="noopener noreferrer"
-              data-ocid="instagram.follow_button"
-              className="inline-flex items-center gap-2 px-8 py-3 bg-primary text-primary-foreground font-body text-sm font-semibold tracking-widest uppercase transition-smooth hover:bg-primary/90"
-            >
-              <SiInstagram className="h-4 w-4" />
-              Follow on Instagram
-            </a>
           </div>
         </div>
       </section>

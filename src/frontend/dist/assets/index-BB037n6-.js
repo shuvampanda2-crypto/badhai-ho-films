@@ -40977,7 +40977,7 @@ const createLucideIcon = (iconName, iconNode) => {
  * This source code is licensed under the ISC license.
  * See the LICENSE file in the root directory of this source tree.
  */
-const __iconNode$o = [
+const __iconNode$p = [
   [
     "path",
     {
@@ -40987,14 +40987,14 @@ const __iconNode$o = [
   ],
   ["circle", { cx: "12", cy: "8", r: "6", key: "1vp47v" }]
 ];
-const Award = createLucideIcon("award", __iconNode$o);
+const Award = createLucideIcon("award", __iconNode$p);
 /**
  * @license lucide-react v0.511.0 - ISC
  *
  * This source code is licensed under the ISC license.
  * See the LICENSE file in the root directory of this source tree.
  */
-const __iconNode$n = [
+const __iconNode$o = [
   [
     "path",
     {
@@ -41004,46 +41004,46 @@ const __iconNode$n = [
   ],
   ["circle", { cx: "12", cy: "13", r: "3", key: "1vg3eu" }]
 ];
-const Camera = createLucideIcon("camera", __iconNode$n);
+const Camera = createLucideIcon("camera", __iconNode$o);
 /**
  * @license lucide-react v0.511.0 - ISC
  *
  * This source code is licensed under the ISC license.
  * See the LICENSE file in the root directory of this source tree.
  */
-const __iconNode$m = [["path", { d: "M20 6 9 17l-5-5", key: "1gmf2c" }]];
-const Check = createLucideIcon("check", __iconNode$m);
+const __iconNode$n = [["path", { d: "M20 6 9 17l-5-5", key: "1gmf2c" }]];
+const Check = createLucideIcon("check", __iconNode$n);
 /**
  * @license lucide-react v0.511.0 - ISC
  *
  * This source code is licensed under the ISC license.
  * See the LICENSE file in the root directory of this source tree.
  */
-const __iconNode$l = [["path", { d: "m6 9 6 6 6-6", key: "qrunsl" }]];
-const ChevronDown = createLucideIcon("chevron-down", __iconNode$l);
+const __iconNode$m = [["path", { d: "m6 9 6 6 6-6", key: "qrunsl" }]];
+const ChevronDown = createLucideIcon("chevron-down", __iconNode$m);
 /**
  * @license lucide-react v0.511.0 - ISC
  *
  * This source code is licensed under the ISC license.
  * See the LICENSE file in the root directory of this source tree.
  */
-const __iconNode$k = [["path", { d: "m15 18-6-6 6-6", key: "1wnfg3" }]];
-const ChevronLeft = createLucideIcon("chevron-left", __iconNode$k);
+const __iconNode$l = [["path", { d: "m15 18-6-6 6-6", key: "1wnfg3" }]];
+const ChevronLeft = createLucideIcon("chevron-left", __iconNode$l);
 /**
  * @license lucide-react v0.511.0 - ISC
  *
  * This source code is licensed under the ISC license.
  * See the LICENSE file in the root directory of this source tree.
  */
-const __iconNode$j = [["path", { d: "m9 18 6-6-6-6", key: "mthhwq" }]];
-const ChevronRight = createLucideIcon("chevron-right", __iconNode$j);
+const __iconNode$k = [["path", { d: "m9 18 6-6-6-6", key: "mthhwq" }]];
+const ChevronRight = createLucideIcon("chevron-right", __iconNode$k);
 /**
  * @license lucide-react v0.511.0 - ISC
  *
  * This source code is licensed under the ISC license.
  * See the LICENSE file in the root directory of this source tree.
  */
-const __iconNode$i = [
+const __iconNode$j = [
   ["rect", { width: "18", height: "18", x: "3", y: "3", rx: "2", key: "afitv7" }],
   ["path", { d: "M7 3v18", key: "bbkbws" }],
   ["path", { d: "M3 7.5h4", key: "zfgn84" }],
@@ -41053,7 +41053,19 @@ const __iconNode$i = [
   ["path", { d: "M17 7.5h4", key: "myr1c1" }],
   ["path", { d: "M17 16.5h4", key: "go4c1d" }]
 ];
-const Film$1 = createLucideIcon("film", __iconNode$i);
+const Film$1 = createLucideIcon("film", __iconNode$j);
+/**
+ * @license lucide-react v0.511.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */
+const __iconNode$i = [
+  ["path", { d: "M6 3h12l4 6-10 13L2 9Z", key: "1pcd5k" }],
+  ["path", { d: "M11 3 8 9l4 13 4-13-3-6", key: "1fcu3u" }],
+  ["path", { d: "M2 9h20", key: "16fsjt" }]
+];
+const Gem = createLucideIcon("gem", __iconNode$i);
 /**
  * @license lucide-react v0.511.0 - ISC
  *
@@ -41061,18 +41073,6 @@ const Film$1 = createLucideIcon("film", __iconNode$i);
  * See the LICENSE file in the root directory of this source tree.
  */
 const __iconNode$h = [
-  ["path", { d: "M6 3h12l4 6-10 13L2 9Z", key: "1pcd5k" }],
-  ["path", { d: "M11 3 8 9l4 13 4-13-3-6", key: "1fcu3u" }],
-  ["path", { d: "M2 9h20", key: "16fsjt" }]
-];
-const Gem = createLucideIcon("gem", __iconNode$h);
-/**
- * @license lucide-react v0.511.0 - ISC
- *
- * This source code is licensed under the ISC license.
- * See the LICENSE file in the root directory of this source tree.
- */
-const __iconNode$g = [
   ["rect", { x: "3", y: "8", width: "18", height: "4", rx: "1", key: "bkv52" }],
   ["path", { d: "M12 8v13", key: "1c76mn" }],
   ["path", { d: "M19 12v7a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2v-7", key: "6wjy6b" }],
@@ -41084,14 +41084,14 @@ const __iconNode$g = [
     }
   ]
 ];
-const Gift = createLucideIcon("gift", __iconNode$g);
+const Gift = createLucideIcon("gift", __iconNode$h);
 /**
  * @license lucide-react v0.511.0 - ISC
  *
  * This source code is licensed under the ISC license.
  * See the LICENSE file in the root directory of this source tree.
  */
-const __iconNode$f = [
+const __iconNode$g = [
   [
     "path",
     {
@@ -41100,7 +41100,19 @@ const __iconNode$f = [
     }
   ]
 ];
-const Heart = createLucideIcon("heart", __iconNode$f);
+const Heart = createLucideIcon("heart", __iconNode$g);
+/**
+ * @license lucide-react v0.511.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */
+const __iconNode$f = [
+  ["rect", { width: "18", height: "18", x: "3", y: "3", rx: "2", ry: "2", key: "1m3agn" }],
+  ["circle", { cx: "9", cy: "9", r: "2", key: "af1f0g" }],
+  ["path", { d: "m21 15-3.086-3.086a2 2 0 0 0-2.828 0L6 21", key: "1xmnt7" }]
+];
+const Image = createLucideIcon("image", __iconNode$f);
 /**
  * @license lucide-react v0.511.0 - ISC
  *
@@ -41108,11 +41120,11 @@ const Heart = createLucideIcon("heart", __iconNode$f);
  * See the LICENSE file in the root directory of this source tree.
  */
 const __iconNode$e = [
-  ["rect", { width: "18", height: "18", x: "3", y: "3", rx: "2", ry: "2", key: "1m3agn" }],
-  ["circle", { cx: "9", cy: "9", r: "2", key: "af1f0g" }],
-  ["path", { d: "m21 15-3.086-3.086a2 2 0 0 0-2.828 0L6 21", key: "1xmnt7" }]
+  ["path", { d: "m10 17 5-5-5-5", key: "1bsop3" }],
+  ["path", { d: "M15 12H3", key: "6jk70r" }],
+  ["path", { d: "M15 3h4a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2h-4", key: "u53s6r" }]
 ];
-const Image = createLucideIcon("image", __iconNode$e);
+const LogIn = createLucideIcon("log-in", __iconNode$e);
 /**
  * @license lucide-react v0.511.0 - ISC
  *
@@ -41120,11 +41132,10 @@ const Image = createLucideIcon("image", __iconNode$e);
  * See the LICENSE file in the root directory of this source tree.
  */
 const __iconNode$d = [
-  ["path", { d: "m10 17 5-5-5-5", key: "1bsop3" }],
-  ["path", { d: "M15 12H3", key: "6jk70r" }],
-  ["path", { d: "M15 3h4a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2h-4", key: "u53s6r" }]
+  ["path", { d: "m22 7-8.991 5.727a2 2 0 0 1-2.009 0L2 7", key: "132q7q" }],
+  ["rect", { x: "2", y: "4", width: "20", height: "16", rx: "2", key: "izxlao" }]
 ];
-const LogIn = createLucideIcon("log-in", __iconNode$d);
+const Mail = createLucideIcon("mail", __iconNode$d);
 /**
  * @license lucide-react v0.511.0 - ISC
  *
@@ -41132,17 +41143,6 @@ const LogIn = createLucideIcon("log-in", __iconNode$d);
  * See the LICENSE file in the root directory of this source tree.
  */
 const __iconNode$c = [
-  ["path", { d: "m22 7-8.991 5.727a2 2 0 0 1-2.009 0L2 7", key: "132q7q" }],
-  ["rect", { x: "2", y: "4", width: "20", height: "16", rx: "2", key: "izxlao" }]
-];
-const Mail = createLucideIcon("mail", __iconNode$c);
-/**
- * @license lucide-react v0.511.0 - ISC
- *
- * This source code is licensed under the ISC license.
- * See the LICENSE file in the root directory of this source tree.
- */
-const __iconNode$b = [
   [
     "path",
     {
@@ -41152,7 +41152,19 @@ const __iconNode$b = [
   ],
   ["circle", { cx: "12", cy: "10", r: "3", key: "ilqhr7" }]
 ];
-const MapPin = createLucideIcon("map-pin", __iconNode$b);
+const MapPin = createLucideIcon("map-pin", __iconNode$c);
+/**
+ * @license lucide-react v0.511.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */
+const __iconNode$b = [
+  ["path", { d: "M4 12h16", key: "1lakjw" }],
+  ["path", { d: "M4 18h16", key: "19g7jn" }],
+  ["path", { d: "M4 6h16", key: "1o0s65" }]
+];
+const Menu = createLucideIcon("menu", __iconNode$b);
 /**
  * @license lucide-react v0.511.0 - ISC
  *
@@ -41160,11 +41172,9 @@ const MapPin = createLucideIcon("map-pin", __iconNode$b);
  * See the LICENSE file in the root directory of this source tree.
  */
 const __iconNode$a = [
-  ["path", { d: "M4 12h16", key: "1lakjw" }],
-  ["path", { d: "M4 18h16", key: "19g7jn" }],
-  ["path", { d: "M4 6h16", key: "1o0s65" }]
+  ["path", { d: "M7.9 20A9 9 0 1 0 4 16.1L2 22Z", key: "vv11sd" }]
 ];
-const Menu = createLucideIcon("menu", __iconNode$a);
+const MessageCircle = createLucideIcon("message-circle", __iconNode$a);
 /**
  * @license lucide-react v0.511.0 - ISC
  *
@@ -41172,9 +41182,9 @@ const Menu = createLucideIcon("menu", __iconNode$a);
  * See the LICENSE file in the root directory of this source tree.
  */
 const __iconNode$9 = [
-  ["path", { d: "M7.9 20A9 9 0 1 0 4 16.1L2 22Z", key: "vv11sd" }]
+  ["path", { d: "M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z", key: "1lielz" }]
 ];
-const MessageCircle = createLucideIcon("message-circle", __iconNode$9);
+const MessageSquare = createLucideIcon("message-square", __iconNode$9);
 /**
  * @license lucide-react v0.511.0 - ISC
  *
@@ -41182,9 +41192,10 @@ const MessageCircle = createLucideIcon("message-circle", __iconNode$9);
  * See the LICENSE file in the root directory of this source tree.
  */
 const __iconNode$8 = [
-  ["path", { d: "M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z", key: "1lielz" }]
+  ["rect", { x: "14", y: "4", width: "4", height: "16", rx: "1", key: "zuxfzm" }],
+  ["rect", { x: "6", y: "4", width: "4", height: "16", rx: "1", key: "1okwgv" }]
 ];
-const MessageSquare = createLucideIcon("message-square", __iconNode$8);
+const Pause = createLucideIcon("pause", __iconNode$8);
 /**
  * @license lucide-react v0.511.0 - ISC
  *
@@ -41468,6 +41479,15 @@ function Layout({ children }) {
         ] }),
         /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { children: [
           /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "font-body text-xs tracking-[0.2em] uppercase text-muted-foreground mb-4", children: "Get In Touch" }),
+          /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "flex justify-center mb-6", children: /* @__PURE__ */ jsxRuntimeExports.jsx(
+            "img",
+            {
+              src: "/assets/logo_footer.png",
+              alt: "Badhai Ho Films",
+              className: "w-auto object-contain mx-auto",
+              style: { maxWidth: "280px", maxHeight: "160px" }
+            }
+          ) }),
           /* @__PURE__ */ jsxRuntimeExports.jsxs("ul", { className: "space-y-3", children: [
             /* @__PURE__ */ jsxRuntimeExports.jsxs("li", { className: "flex items-center gap-3 text-sm text-foreground/70", children: [
               /* @__PURE__ */ jsxRuntimeExports.jsx(Phone, { className: "h-4 w-4 text-[#D4AF37] shrink-0" }),
@@ -41561,12 +41581,6 @@ function Layout({ children }) {
     /* @__PURE__ */ jsxRuntimeExports.jsx(WhatsAppButton, {})
   ] });
 }
-const stats = [
-  { value: "16+", label: "Years of Experience" },
-  { value: "500+", label: "Weddings Covered" },
-  { value: "1000+", label: "Happy Couples" },
-  { value: "50+", label: "Award-Winning Films" }
-];
 const values = [
   {
     icon: Film$1,
@@ -41621,45 +41635,34 @@ function About() {
           ]
         }
       ),
-      /* @__PURE__ */ jsxRuntimeExports.jsxs(
+      /* @__PURE__ */ jsxRuntimeExports.jsx(
         motion.div,
         {
           initial: { opacity: 0, x: 30 },
           animate: { opacity: 1, x: 0 },
           transition: { duration: 0.8, delay: 0.2 },
           className: "relative",
-          children: [
-            /* @__PURE__ */ jsxRuntimeExports.jsx(
-              "img",
-              {
-                src: "/assets/generated/hero-wedding.dim_1920x1080.jpg",
-                alt: "Badhai Ho Films",
-                className: "w-full aspect-[4/5] object-cover"
-              }
-            ),
-            /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "absolute -bottom-4 -left-4 bg-[#D4AF37] px-6 py-4", children: [
-              /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "font-display text-3xl font-bold text-[#0F0F0F]", children: "16+" }),
-              /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "font-body text-xs text-[#0F0F0F]/80 tracking-widest uppercase", children: "Years Experience" })
+          children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "relative", children: [
+            /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "absolute -inset-px rounded-2xl bg-gradient-to-br from-[#D4AF37]/60 via-[#D4AF37]/20 to-transparent" }),
+            /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "relative rounded-2xl overflow-hidden shadow-[0_0_60px_rgba(212,175,55,0.18)]", children: [
+              /* @__PURE__ */ jsxRuntimeExports.jsx(
+                "img",
+                {
+                  src: "/assets/images/owner-photo.jpg",
+                  alt: "Founder – Badhai Ho Wedding & Event Films",
+                  className: "w-full aspect-[4/5] object-cover"
+                }
+              ),
+              /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "absolute inset-0 bg-gradient-to-t from-[#0F0F0F]/70 via-transparent to-transparent" }),
+              /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "absolute bottom-0 left-0 right-0 p-5 backdrop-blur-md bg-[#0F0F0F]/50 border-t border-[#D4AF37]/30", children: [
+                /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "font-display text-base font-bold text-[#FFFFFF] mb-0.5", children: "Creative Director & Editor" }),
+                /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "font-body text-xs text-[#B0B0B0] tracking-widest uppercase", children: "Badhai Ho – Wedding & Event Films" })
+              ] })
             ] })
-          ]
+          ] })
         }
       )
     ] }) }),
-    /* @__PURE__ */ jsxRuntimeExports.jsx("section", { className: "glass-strong border-t border-b border-white/10 py-14 mb-20", children: /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "container mx-auto px-4 lg:px-8", children: /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "grid grid-cols-2 lg:grid-cols-4 gap-8", children: stats.map((stat, i) => /* @__PURE__ */ jsxRuntimeExports.jsxs(
-      motion.div,
-      {
-        initial: { opacity: 0, y: 20 },
-        whileInView: { opacity: 1, y: 0 },
-        viewport: { once: true },
-        transition: { delay: i * 0.1 },
-        className: "text-center",
-        children: [
-          /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "font-display text-4xl lg:text-5xl font-bold text-[#D4AF37] mb-2", children: stat.value }),
-          /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "font-body text-xs text-muted-foreground tracking-wider uppercase", children: stat.label })
-        ]
-      },
-      stat.label
-    )) }) }) }),
     /* @__PURE__ */ jsxRuntimeExports.jsxs("section", { className: "container mx-auto px-4 lg:px-8", children: [
       /* @__PURE__ */ jsxRuntimeExports.jsxs(
         motion.div,
@@ -41699,7 +41702,7 @@ const UserRole = Variant({
   "user": Null,
   "guest": Null
 });
-const FilmCategory$1 = Variant({
+const FilmCategory = Variant({
   "coupleTeaser": Null,
   "reel": Null,
   "weddingHighlights": Null,
@@ -41710,7 +41713,7 @@ const FilmInput = Record({
   "featured": Bool,
   "thumbnailUrl": Text,
   "description": Text,
-  "category": FilmCategory$1,
+  "category": FilmCategory,
   "youtubeUrl": Text
 });
 const FilmId = Nat;
@@ -41721,7 +41724,7 @@ const Film = Record({
   "thumbnailUrl": Text,
   "createdAt": Int,
   "description": Text,
-  "category": FilmCategory$1,
+  "category": FilmCategory,
   "youtubeUrl": Text
 });
 const GalleryImageInput = Record({
@@ -41972,13 +41975,6 @@ const idlFactory = ({ IDL: IDL2 }) => {
     )
   });
 };
-var FilmCategory = /* @__PURE__ */ ((FilmCategory2) => {
-  FilmCategory2["coupleTeaser"] = "coupleTeaser";
-  FilmCategory2["reel"] = "reel";
-  FilmCategory2["weddingHighlights"] = "weddingHighlights";
-  FilmCategory2["engagement"] = "engagement";
-  return FilmCategory2;
-})(FilmCategory || {});
 class Backend {
   constructor(actor, _uploadFile, _downloadFile, processError2) {
     this.actor = actor;
@@ -46179,6 +46175,17 @@ function Contact() {
     try {
       await mutation.mutateAsync(formData);
       setSubmitted(true);
+      const parts = ["New Inquiry from Badhai Ho Website", ""];
+      if (formData.name.trim()) parts.push(`Name: ${formData.name}`);
+      if (formData.phone.trim()) parts.push(`Phone: ${formData.phone}`);
+      if (formData.email.trim()) parts.push(`Email: ${formData.email}`);
+      if (formData.eventDate.trim())
+        parts.push(`Event Date: ${formData.eventDate}`);
+      if (formData.packageInterest.trim())
+        parts.push(`Package: ${formData.packageInterest}`);
+      if (formData.message.trim()) parts.push(`Message: ${formData.message}`);
+      const whatsappUrl = `https://wa.me/919776376441?text=${encodeURIComponent(parts.join("\n"))}`;
+      window.open(whatsappUrl, "_blank");
     } catch {
     }
   };
@@ -46479,177 +46486,92 @@ function Contact() {
     ] })
   ] }) }) });
 }
-function useFilms() {
-  const { actor, isFetching } = useActor(createActor);
-  return useQuery({
-    queryKey: ["films"],
-    queryFn: async () => {
-      if (!actor) return [];
-      return actor.getFilms();
-    },
-    enabled: !!actor && !isFetching
-  });
-}
-function useFeaturedFilms() {
-  const { actor, isFetching } = useActor(createActor);
-  return useQuery({
-    queryKey: ["films", "featured"],
-    queryFn: async () => {
-      if (!actor) return [];
-      return actor.getFeaturedFilms();
-    },
-    enabled: !!actor && !isFetching
-  });
-}
-const CATEGORY_LABELS = {
-  all: "All",
-  [FilmCategory.engagement]: "Engagement Films",
-  [FilmCategory.weddingHighlights]: "Wedding Highlights",
-  [FilmCategory.coupleTeaser]: "Couple Teasers",
-  [FilmCategory.reel]: "Reels"
-};
-const CATEGORY_BADGE_COLORS = {
-  [FilmCategory.engagement]: "bg-[#D4AF37]/20 text-[#D4AF37] border-[#D4AF37]/30",
-  [FilmCategory.weddingHighlights]: "bg-secondary text-foreground border-border",
-  [FilmCategory.coupleTeaser]: "bg-[#D4AF37]/10 text-[#D4AF37]/90 border-[#D4AF37]/20",
-  [FilmCategory.reel]: "bg-muted text-muted-foreground border-border"
-};
-const SAMPLE_FILMS = [
+const FILMS = [
   {
-    id: 1n,
-    title: "Rahul & Priya — Wedding Highlights",
-    description: "A grand celebration of love, tradition, and joyful togetherness across two families.",
-    thumbnailUrl: "/assets/generated/hero-wedding.dim_1920x1080.jpg",
-    youtubeUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
-    featured: true,
-    category: FilmCategory.weddingHighlights,
-    createdAt: 0n
+    id: 1,
+    src: "/assets/vanani_yashas_mehendi_up_2-019e3074-e391-752a-9287-8c0ed3500306.mp4",
+    label: "Cinematic Wedding Film",
+    description: "A timeless love story captured through cinematic frames and genuine emotion."
   },
   {
-    id: 2n,
-    title: "Arjun & Sneha — Engagement Film",
-    description: "Their eyes met and the world stood still. A timeless engagement story.",
-    thumbnailUrl: "/assets/generated/hero-wedding.dim_1920x1080.jpg",
-    youtubeUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
-    featured: true,
-    category: FilmCategory.engagement,
-    createdAt: 0n
+    id: 2,
+    src: "/assets/slide_2.mp4",
+    label: "Wedding Highlights",
+    description: "Every beautiful moment, every tear of joy — preserved forever in stunning detail."
   },
   {
-    id: 3n,
-    title: "Vikram & Kavya — Couple Teaser",
-    description: "Golden hour, whispered vows, and a love that lights up every frame.",
-    thumbnailUrl: "/assets/generated/hero-wedding.dim_1920x1080.jpg",
-    youtubeUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
-    featured: true,
-    category: FilmCategory.coupleTeaser,
-    createdAt: 0n
-  },
-  {
-    id: 4n,
-    title: "Dev & Pooja — Wedding Reel",
-    description: "60 seconds of pure magic — their wedding distilled into one unforgettable reel.",
-    thumbnailUrl: "/assets/generated/hero-wedding.dim_1920x1080.jpg",
-    youtubeUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
-    featured: false,
-    category: FilmCategory.reel,
-    createdAt: 0n
-  },
-  {
-    id: 5n,
-    title: "Suresh & Meena — Wedding Highlights",
-    description: "Traditional Odia rituals, vibrant colours, and cinematic storytelling.",
-    thumbnailUrl: "/assets/generated/hero-wedding.dim_1920x1080.jpg",
-    youtubeUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
-    featured: false,
-    category: FilmCategory.weddingHighlights,
-    createdAt: 0n
-  },
-  {
-    id: 6n,
-    title: "Rohan & Nisha — Engagement Film",
-    description: "From nervous smiles to heartfelt laughter — a genuine love story captured beautifully.",
-    thumbnailUrl: "/assets/generated/hero-wedding.dim_1920x1080.jpg",
-    youtubeUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
-    featured: false,
-    category: FilmCategory.engagement,
-    createdAt: 0n
-  },
-  {
-    id: 7n,
-    title: "Aakash & Divya — Couple Teaser",
-    description: "Beach sand, ocean breeze, and two souls meant to be together forever.",
-    thumbnailUrl: "/assets/generated/hero-wedding.dim_1920x1080.jpg",
-    youtubeUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
-    featured: false,
-    category: FilmCategory.coupleTeaser,
-    createdAt: 0n
-  },
-  {
-    id: 8n,
-    title: "Karan & Anjali — Wedding Reel",
-    description: "High energy, slow moments, raw emotions — all in under a minute.",
-    thumbnailUrl: "/assets/generated/hero-wedding.dim_1920x1080.jpg",
-    youtubeUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
-    featured: false,
-    category: FilmCategory.reel,
-    createdAt: 0n
-  },
-  {
-    id: 9n,
-    title: "Nikhil & Swati — Wedding Highlights",
-    description: "Four hundred guests, one unforgettable cinematic story of eternal love.",
-    thumbnailUrl: "/assets/generated/hero-wedding.dim_1920x1080.jpg",
-    youtubeUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
-    featured: true,
-    category: FilmCategory.weddingHighlights,
-    createdAt: 0n
-  },
-  {
-    id: 10n,
-    title: "Saurabh & Isha — Engagement Film",
-    description: "A rooftop engagement beneath city lights — magical, modern, and deeply personal.",
-    thumbnailUrl: "/assets/generated/hero-wedding.dim_1920x1080.jpg",
-    youtubeUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
-    featured: false,
-    category: FilmCategory.engagement,
-    createdAt: 0n
-  },
-  {
-    id: 11n,
-    title: "Tarun & Preethi — Couple Teaser",
-    description: "Candid, warm, and full of laughter — exactly how love should feel.",
-    thumbnailUrl: "/assets/generated/hero-wedding.dim_1920x1080.jpg",
-    youtubeUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
-    featured: false,
-    category: FilmCategory.coupleTeaser,
-    createdAt: 0n
-  },
-  {
-    id: 12n,
-    title: "Manish & Rekha — Social Reel",
-    description: "Trending sounds meet timeless moments in this viral-worthy wedding reel.",
-    thumbnailUrl: "/assets/generated/hero-wedding.dim_1920x1080.jpg",
-    youtubeUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
-    featured: false,
-    category: FilmCategory.reel,
-    createdAt: 0n
+    id: 3,
+    src: "/assets/couple_video_1.mp4",
+    label: "Couple Teaser",
+    description: "Two souls, one beautiful journey told through golden light and heartfelt moments."
   }
 ];
-const FILTERS = ["all", ...Object.values(FilmCategory)];
-function getYoutubeId(url) {
-  const match = url.match(/(?:v=|youtu\.be\/|embed\/)([-\w]{11})/);
-  return match ? match[1] : null;
-}
-function getCategoryBadge(category) {
-  return CATEGORY_BADGE_COLORS[category] ?? "bg-muted text-muted-foreground border-border";
+function FilmCard({ film, index: index2 }) {
+  const videoRef = reactExports.useRef(null);
+  const [isPlaying, setIsPlaying] = reactExports.useState(false);
+  function togglePlay() {
+    const video = videoRef.current;
+    if (!video) return;
+    if (video.paused) {
+      video.play();
+      setIsPlaying(true);
+    } else {
+      video.pause();
+      setIsPlaying(false);
+    }
+  }
+  return /* @__PURE__ */ jsxRuntimeExports.jsxs(
+    motion.div,
+    {
+      initial: { opacity: 0, y: 28 },
+      whileInView: { opacity: 1, y: 0 },
+      viewport: { once: true, margin: "-40px" },
+      transition: {
+        delay: index2 * 0.1,
+        duration: 0.55,
+        ease: [0.22, 1, 0.36, 1]
+      },
+      "data-ocid": `films.item.${index2 + 1}`,
+      className: "group relative overflow-hidden bg-[#0F0F0F] aspect-video",
+      children: [
+        /* @__PURE__ */ jsxRuntimeExports.jsx(
+          "video",
+          {
+            ref: videoRef,
+            src: film.src,
+            playsInline: true,
+            className: "w-full h-full object-cover transition-all duration-700 group-hover:scale-105",
+            onEnded: () => setIsPlaying(false),
+            children: /* @__PURE__ */ jsxRuntimeExports.jsx("track", { kind: "captions" })
+          }
+        ),
+        /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "absolute inset-0 bg-gradient-to-t from-[#0F0F0F]/80 via-[#0F0F0F]/10 to-transparent pointer-events-none" }),
+        /* @__PURE__ */ jsxRuntimeExports.jsx(
+          "button",
+          {
+            type: "button",
+            "aria-label": isPlaying ? "Pause video" : "Play video",
+            "data-ocid": `films.play_button.${index2 + 1}`,
+            onClick: togglePlay,
+            className: "absolute inset-0 flex items-center justify-center cursor-pointer focus:outline-none focus-visible:ring-2 focus-visible:ring-[#D4AF37]",
+            children: /* @__PURE__ */ jsxRuntimeExports.jsx(
+              "div",
+              {
+                className: `w-16 h-16 rounded-full border-2 border-[#D4AF37] flex items-center justify-center bg-[#0F0F0F]/50 backdrop-blur-sm shadow-[0_0_28px_rgba(212,175,55,0.4)] transition-all duration-300 hover:bg-[#D4AF37]/20 hover:scale-110 ${isPlaying ? "opacity-0 group-hover:opacity-100" : "opacity-100"}`,
+                children: isPlaying ? /* @__PURE__ */ jsxRuntimeExports.jsx(Pause, { className: "h-7 w-7 text-[#D4AF37]", fill: "currentColor" }) : /* @__PURE__ */ jsxRuntimeExports.jsx(Play, { className: "h-7 w-7 text-[#D4AF37] ml-1", fill: "currentColor" })
+              }
+            )
+          }
+        ),
+        /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "absolute bottom-0 left-0 right-0 px-4 pb-4 pointer-events-none", children: [
+          /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "inline-block px-2.5 py-0.5 text-[10px] font-body tracking-widest uppercase border rounded-sm bg-[#D4AF37]/20 text-[#D4AF37] border-[#D4AF37]/30 mb-2", children: film.label }),
+          /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "font-body text-xs text-[#B0B0B0] line-clamp-2 leading-relaxed", children: film.description })
+        ] })
+      ]
+    }
+  );
 }
 function Films() {
-  const { data: filmsData } = useFilms();
-  const [activeFilter, setActiveFilter] = reactExports.useState("all");
-  const [playingFilm, setPlayingFilm] = reactExports.useState(null);
-  const films = filmsData && filmsData.length > 0 ? filmsData : SAMPLE_FILMS;
-  const filtered = activeFilter === "all" ? films : films.filter((f) => f.category === activeFilter);
   return /* @__PURE__ */ jsxRuntimeExports.jsxs(Layout, { children: [
     /* @__PURE__ */ jsxRuntimeExports.jsxs("section", { className: "relative pt-32 pb-16 lg:pt-40 lg:pb-20 bg-card/30 border-b border-white/8 overflow-hidden", children: [
       /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "absolute bottom-0 left-1/2 -translate-x-1/2 w-24 h-px bg-[#D4AF37]" }),
@@ -46669,201 +46591,56 @@ function Films() {
         }
       )
     ] }),
-    /* @__PURE__ */ jsxRuntimeExports.jsx("section", { className: "py-16 lg:py-24 bg-background", children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "container mx-auto px-4 lg:px-8", children: [
-      /* @__PURE__ */ jsxRuntimeExports.jsx(
-        motion.div,
-        {
-          initial: { opacity: 0, y: 12 },
-          animate: { opacity: 1, y: 0 },
-          transition: { duration: 0.5, delay: 0.2 },
-          className: "flex flex-wrap justify-center gap-2 md:gap-3 mb-14",
-          "data-ocid": "films.filter_tabs",
-          children: FILTERS.map((f) => /* @__PURE__ */ jsxRuntimeExports.jsx(
-            "button",
-            {
-              type: "button",
-              "data-ocid": `films.filter.${f}`,
-              onClick: () => setActiveFilter(f),
-              className: `px-5 py-2 font-body text-xs tracking-widest uppercase transition-smooth border ${activeFilter === f ? "bg-[#D4AF37] text-[#0F0F0F] border-[#D4AF37] shadow-[0_0_20px_rgba(212,175,55,0.25)]" : "border-border text-muted-foreground hover:border-[#D4AF37]/60 hover:text-foreground"}`,
-              children: CATEGORY_LABELS[f]
-            },
-            f
-          ))
-        }
-      ),
-      /* @__PURE__ */ jsxRuntimeExports.jsx(AnimatePresence, { mode: "wait", children: filtered.length === 0 ? /* @__PURE__ */ jsxRuntimeExports.jsxs(
-        motion.div,
-        {
-          initial: { opacity: 0, y: 16 },
-          animate: { opacity: 1, y: 0 },
-          exit: { opacity: 0, y: -16 },
-          transition: { duration: 0.4 },
-          className: "flex flex-col items-center justify-center py-24 text-center",
-          "data-ocid": "films.empty_state",
-          children: [
-            /* @__PURE__ */ jsxRuntimeExports.jsx(
-              Film$1,
-              {
-                className: "h-12 w-12 text-[#D4AF37]/40 mb-5",
-                strokeWidth: 1.2
-              }
-            ),
-            /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "font-display text-2xl text-foreground/50 mb-2", children: "No films in this category yet" }),
-            /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "font-body text-sm text-muted-foreground", children: "We're adding new films every week — check back soon." })
-          ]
-        },
-        "empty"
-      ) : /* @__PURE__ */ jsxRuntimeExports.jsx(
-        motion.div,
-        {
-          initial: { opacity: 0 },
-          animate: { opacity: 1 },
-          exit: { opacity: 0 },
-          transition: { duration: 0.35 },
-          className: "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-7",
-          "data-ocid": "films.grid",
-          children: filtered.map((film, i) => /* @__PURE__ */ jsxRuntimeExports.jsx(
-            FilmCard,
-            {
-              film,
-              index: i,
-              onPlay: () => setPlayingFilm(film)
-            },
-            film.id.toString()
-          ))
-        },
-        activeFilter
-      ) })
-    ] }) }),
-    /* @__PURE__ */ jsxRuntimeExports.jsx(AnimatePresence, { children: playingFilm && /* @__PURE__ */ jsxRuntimeExports.jsx(VideoModal$1, { film: playingFilm, onClose: () => setPlayingFilm(null) }) })
-  ] });
-}
-function FilmCard({ film, index: index2, onPlay }) {
-  return /* @__PURE__ */ jsxRuntimeExports.jsxs(
-    motion.button,
-    {
-      type: "button",
-      initial: { opacity: 0, y: 28 },
-      whileInView: { opacity: 1, y: 0 },
-      viewport: { once: true, margin: "-40px" },
-      transition: {
-        delay: index2 * 0.07,
-        duration: 0.55,
-        ease: [0.22, 1, 0.36, 1]
-      },
-      "data-ocid": `films.item.${index2 + 1}`,
-      className: "group relative overflow-hidden bg-card aspect-video cursor-pointer w-full text-left",
-      onClick: onPlay,
-      "aria-label": `Play ${film.title}`,
-      children: [
-        /* @__PURE__ */ jsxRuntimeExports.jsx(
-          "img",
-          {
-            src: film.thumbnailUrl || "/assets/generated/hero-wedding.dim_1920x1080.jpg",
-            alt: film.title,
-            className: "w-full h-full object-cover transition-all duration-700 group-hover:scale-107"
-          }
-        ),
-        /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "absolute inset-0 bg-gradient-to-t from-background/95 via-background/20 to-transparent" }),
-        /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "absolute inset-0 bg-background/0 group-hover:bg-background/15 transition-smooth" }),
-        /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "absolute inset-0 flex items-center justify-center", children: /* @__PURE__ */ jsxRuntimeExports.jsx(
-          motion.div,
-          {
-            whileHover: { scale: 1.1 },
-            whileTap: { scale: 0.95 },
-            className: "w-14 h-14 rounded-full border-2 border-[#D4AF37]/70 flex items-center justify-center bg-background/20 backdrop-blur-sm group-hover:border-[#D4AF37] group-hover:bg-[#D4AF37]/20 transition-smooth",
-            children: /* @__PURE__ */ jsxRuntimeExports.jsx(Play, { className: "h-5 w-5 text-[#D4AF37] ml-0.5", fill: "currentColor" })
-          }
-        ) }),
-        /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "absolute bottom-0 left-0 right-0 p-4", children: [
+    /* @__PURE__ */ jsxRuntimeExports.jsx(
+      "section",
+      {
+        className: "py-16 lg:py-24 bg-background",
+        "data-ocid": "films.section",
+        children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "container mx-auto px-4 lg:px-8", children: [
           /* @__PURE__ */ jsxRuntimeExports.jsx(
-            "span",
+            motion.p,
             {
-              className: `inline-block px-2.5 py-0.5 text-[10px] font-body tracking-widest uppercase border rounded-sm mb-2 ${getCategoryBadge(film.category)}`,
-              children: CATEGORY_LABELS[film.category]
+              initial: { opacity: 0, y: 12 },
+              animate: { opacity: 1, y: 0 },
+              transition: { duration: 0.5, delay: 0.15 },
+              className: "text-center font-body text-xs text-[#B0B0B0] tracking-[0.3em] uppercase mb-12",
+              children: "Click any film to play with audio"
             }
           ),
-          /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "font-display text-base font-bold text-foreground leading-snug truncate", children: film.title })
+          /* @__PURE__ */ jsxRuntimeExports.jsx(
+            "div",
+            {
+              className: "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-7",
+              "data-ocid": "films.grid",
+              children: FILMS.map((film, i) => /* @__PURE__ */ jsxRuntimeExports.jsx(FilmCard, { film, index: i }, film.id))
+            }
+          ),
+          /* @__PURE__ */ jsxRuntimeExports.jsxs(
+            motion.div,
+            {
+              initial: { opacity: 0, y: 16 },
+              whileInView: { opacity: 1, y: 0 },
+              viewport: { once: true },
+              transition: { duration: 0.6, delay: 0.3 },
+              className: "text-center mt-16",
+              children: [
+                /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "font-body text-sm text-[#B0B0B0] mb-6", children: "Want your love story captured like this?" }),
+                /* @__PURE__ */ jsxRuntimeExports.jsx(
+                  Link,
+                  {
+                    to: "/",
+                    "data-ocid": "films.book_cta_button",
+                    className: "inline-flex items-center gap-2 px-8 py-3 bg-[#D4AF37] text-[#0F0F0F] font-body text-sm font-bold tracking-widest uppercase transition-all duration-300 hover:bg-[#D4AF37]/90 hover:shadow-[0_0_24px_rgba(212,175,55,0.35)]",
+                    children: "Book Your Date"
+                  }
+                )
+              ]
+            }
+          )
         ] })
-      ]
-    }
-  );
-}
-function VideoModal$1({ film, onClose }) {
-  const youtubeId = getYoutubeId(film.youtubeUrl);
-  return /* @__PURE__ */ jsxRuntimeExports.jsx(
-    motion.div,
-    {
-      initial: { opacity: 0 },
-      animate: { opacity: 1 },
-      exit: { opacity: 0 },
-      transition: { duration: 0.25 },
-      className: "fixed inset-0 z-50 bg-black/90 backdrop-blur-xl flex items-center justify-center p-4",
-      onClick: onClose,
-      onKeyDown: (e) => e.key === "Escape" && onClose(),
-      role: "presentation",
-      children: /* @__PURE__ */ jsxRuntimeExports.jsxs(
-        motion.dialog,
-        {
-          initial: { opacity: 0, scale: 0.96, y: 20 },
-          animate: { opacity: 1, scale: 1, y: 0 },
-          exit: { opacity: 0, scale: 0.96, y: 20 },
-          transition: { duration: 0.3, ease: [0.22, 1, 0.36, 1] },
-          className: "relative w-full max-w-4xl glass-card rounded-2xl p-0 m-0 border-0",
-          "data-ocid": "films.video_dialog",
-          "aria-modal": "true",
-          "aria-label": film.title,
-          open: true,
-          onClick: (e) => e.stopPropagation(),
-          onKeyDown: (e) => {
-            e.stopPropagation();
-            if (e.key === "Escape") onClose();
-          },
-          children: [
-            /* @__PURE__ */ jsxRuntimeExports.jsxs(
-              "button",
-              {
-                type: "button",
-                onClick: onClose,
-                "data-ocid": "films.video_close_button",
-                "aria-label": "Close video",
-                className: "absolute -top-11 right-0 text-muted-foreground hover:text-[#D4AF37] transition-smooth flex items-center gap-1.5 font-body text-xs tracking-widest uppercase",
-                children: [
-                  /* @__PURE__ */ jsxRuntimeExports.jsx(X, { className: "h-4 w-4" }),
-                  "Close"
-                ]
-              }
-            ),
-            /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "aspect-video overflow-hidden rounded-t-2xl", children: youtubeId ? /* @__PURE__ */ jsxRuntimeExports.jsx(
-              "iframe",
-              {
-                src: `https://www.youtube.com/embed/${youtubeId}?autoplay=1&rel=0`,
-                title: film.title,
-                allow: "autoplay; fullscreen; picture-in-picture",
-                allowFullScreen: true,
-                className: "w-full h-full"
-              }
-            ) : /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "w-full h-full flex items-center justify-center", children: /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-muted-foreground font-body text-sm", children: "Video unavailable" }) }) }),
-            /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "mt-4 flex items-start gap-4", children: [
-              /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex-1 min-w-0", children: [
-                /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "font-display text-xl font-bold text-foreground leading-snug", children: film.title }),
-                /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-sm text-muted-foreground mt-1 font-body leading-relaxed line-clamp-2", children: film.description })
-              ] }),
-              /* @__PURE__ */ jsxRuntimeExports.jsx(
-                "span",
-                {
-                  className: `shrink-0 mt-0.5 inline-block px-2.5 py-0.5 text-[10px] font-body tracking-widest uppercase border rounded-sm ${getCategoryBadge(film.category)}`,
-                  children: CATEGORY_LABELS[film.category]
-                }
-              )
-            ] })
-          ]
-        },
-        "modal-content"
-      )
-    },
-    "modal-backdrop"
-  );
+      }
+    )
+  ] });
 }
 function useGalleryImages() {
   const { actor, isFetching } = useActor(createActor);
@@ -47149,13 +46926,7 @@ function Gallery() {
               /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "gallery-overlay" }),
               /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "gallery-bracket-tl" }),
               /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "gallery-bracket-br" }),
-              /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "gallery-info", children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex items-end justify-between gap-2", children: [
-                /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "min-w-0", children: [
-                  /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "font-display text-sm text-white font-semibold leading-tight truncate", children: item.coupleName }),
-                  /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "font-body text-xs text-white/70 mt-0.5 truncate", children: item.caption })
-                ] }),
-                /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "shrink-0 px-2 py-0.5 rounded-full text-[9px] font-body tracking-widest uppercase bg-[#D4AF37]/20 border border-[#D4AF37]/40 text-[#D4AF37]", children: item.category })
-              ] }) })
+              /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "gallery-info", children: /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "flex items-end justify-end gap-2", children: /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "shrink-0 px-2 py-0.5 rounded-full text-[9px] font-body tracking-widest uppercase bg-[#D4AF37]/20 border border-[#D4AF37]/40 text-[#D4AF37]", children: item.category }) }) })
             ]
           },
           item.id.toString()
@@ -47247,11 +47018,7 @@ function Gallery() {
                         ]
                       }
                     ),
-                    /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "mt-5 text-center", children: [
-                      /* @__PURE__ */ jsxRuntimeExports.jsx("h2", { className: "font-display text-xl md:text-2xl font-bold text-foreground", children: lightboxItem.coupleName }),
-                      /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "font-body text-sm text-muted-foreground mt-1", children: lightboxItem.caption }),
-                      /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "font-body text-xs text-[#D4AF37] tracking-[0.2em] uppercase mt-2", children: lightboxItem.category })
-                    ] }),
+                    /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "mt-5 text-center", children: /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "font-body text-xs text-[#D4AF37] tracking-[0.2em] uppercase", children: lightboxItem.category }) }),
                     /* @__PURE__ */ jsxRuntimeExports.jsxs("p", { className: "mt-3 text-center font-body text-xs text-muted-foreground/60", children: [
                       lightboxIndex + 1,
                       " / ",
@@ -47437,38 +47204,6 @@ const cva = (base, config) => (props) => {
   }, []);
   return cx(base, getVariantClassNames, getCompoundVariantClassNames, props === null || props === void 0 ? void 0 : props.class, props === null || props === void 0 ? void 0 : props.className);
 };
-const badgeVariants = cva(
-  "inline-flex items-center justify-center rounded-md border px-2 py-0.5 text-xs font-medium w-fit whitespace-nowrap shrink-0 [&>svg]:size-3 gap-1 [&>svg]:pointer-events-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive transition-[color,box-shadow] overflow-hidden",
-  {
-    variants: {
-      variant: {
-        default: "border-transparent bg-primary text-primary-foreground [a&]:hover:bg-primary/90",
-        secondary: "border-transparent bg-secondary text-secondary-foreground [a&]:hover:bg-secondary/90",
-        destructive: "border-transparent bg-destructive text-destructive-foreground [a&]:hover:bg-destructive/90 focus-visible:ring-destructive/20 dark:focus-visible:ring-destructive/40 dark:bg-destructive/60",
-        outline: "text-foreground [a&]:hover:bg-accent [a&]:hover:text-accent-foreground"
-      }
-    },
-    defaultVariants: {
-      variant: "default"
-    }
-  }
-);
-function Badge({
-  className,
-  variant,
-  asChild = false,
-  ...props
-}) {
-  const Comp = asChild ? Slot : "span";
-  return /* @__PURE__ */ jsxRuntimeExports.jsx(
-    Comp,
-    {
-      "data-slot": "badge",
-      className: cn(badgeVariants({ variant }), className),
-      ...props
-    }
-  );
-}
 const buttonVariants = cva(
   "inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium transition-all disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg:not([class*='size-'])]:size-4 shrink-0 [&_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive",
   {
@@ -47511,13 +47246,13 @@ function Button({
     }
   );
 }
-function usePackages() {
+function useFeaturedFilms() {
   const { actor, isFetching } = useActor(createActor);
   return useQuery({
-    queryKey: ["packages"],
+    queryKey: ["films", "featured"],
     queryFn: async () => {
       if (!actor) return [];
-      return actor.getPackages();
+      return actor.getFeaturedFilms();
     },
     enabled: !!actor && !isFetching
   });
@@ -47570,192 +47305,40 @@ const services = [
     description: "Short-form cinematic reels perfectly crafted for Instagram and social media sharing."
   }
 ];
-const fallbackFilms = [
-  {
-    id: 1n,
-    title: "Varun & Surbhi",
-    description: "A timeless love story from Bhubaneswar",
-    thumbnailUrl: "/assets/generated/hero-wedding.dim_1920x1080.jpg",
-    youtubeUrl: "dQw4w9WgXcQ",
-    featured: true,
-    category: "weddingHighlights",
-    createdAt: 0n
-  },
-  {
-    id: 2n,
-    title: "Rhea & Rohan",
-    description: "Eternal bonds, eternal memories",
-    thumbnailUrl: "/assets/generated/hero-wedding.dim_1920x1080.jpg",
-    youtubeUrl: "dQw4w9WgXcQ",
-    featured: true,
-    category: "weddingHighlights",
-    createdAt: 0n
-  },
-  {
-    id: 3n,
-    title: "Anjali & Vikram",
-    description: "Two souls, one beautiful journey",
-    thumbnailUrl: "/assets/generated/hero-wedding.dim_1920x1080.jpg",
-    youtubeUrl: "dQw4w9WgXcQ",
-    featured: true,
-    category: "engagement",
-    createdAt: 0n
-  },
-  {
-    id: 4n,
-    title: "Priya & Arjun",
-    description: "Love written in golden light",
-    thumbnailUrl: "/assets/generated/hero-wedding.dim_1920x1080.jpg",
-    youtubeUrl: "dQw4w9WgXcQ",
-    featured: true,
-    category: "coupleTeasers",
-    createdAt: 0n
-  },
-  {
-    id: 5n,
-    title: "Neha & Sahil",
-    description: "A fairy-tale ceremony in Odisha",
-    thumbnailUrl: "/assets/generated/hero-wedding.dim_1920x1080.jpg",
-    youtubeUrl: "dQw4w9WgXcQ",
-    featured: true,
-    category: "weddingHighlights",
-    createdAt: 0n
-  },
-  {
-    id: 6n,
-    title: "Meera & Karan",
-    description: "Where tradition meets cinematic art",
-    thumbnailUrl: "/assets/generated/hero-wedding.dim_1920x1080.jpg",
-    youtubeUrl: "dQw4w9WgXcQ",
-    featured: false,
-    category: "reels",
-    createdAt: 0n
-  },
-  {
-    id: 7n,
-    title: "Divya & Raj",
-    description: "An engagement story to remember",
-    thumbnailUrl: "/assets/generated/hero-wedding.dim_1920x1080.jpg",
-    youtubeUrl: "dQw4w9WgXcQ",
-    featured: false,
-    category: "engagement",
-    createdAt: 0n
-  },
-  {
-    id: 8n,
-    title: "Sunita & Dev",
-    description: "Blessings, dance, and pure emotion",
-    thumbnailUrl: "/assets/generated/hero-wedding.dim_1920x1080.jpg",
-    youtubeUrl: "dQw4w9WgXcQ",
-    featured: false,
-    category: "coupleTeasers",
-    createdAt: 0n
-  }
-];
+const fallbackFilms = [];
 const galleryItems = [
-  {
-    id: 1,
-    label: "Varun & Surbhi",
-    h: "h-56",
-    img: "/assets/images/wedding1.jpg"
-  },
-  {
-    id: 2,
-    label: "Rhea & Rohan",
-    h: "h-44",
-    img: "/assets/images/wedding2.jpg"
-  },
-  {
-    id: 3,
-    label: "Anjali & Vikram",
-    h: "h-64",
-    img: "/assets/images/wedding3.jpg"
-  },
-  {
-    id: 4,
-    label: "Priya & Arjun",
-    h: "h-48",
-    img: "/assets/images/wedding4.jpg"
-  },
-  {
-    id: 5,
-    label: "Meera & Karan",
-    h: "h-52",
-    img: "/assets/images/wedding5.jpg"
-  },
-  {
-    id: 6,
-    label: "Neha & Sahil",
-    h: "h-44",
-    img: "/assets/images/wedding6.jpg"
-  },
-  {
-    id: 7,
-    label: "Divya & Raj",
-    h: "h-60",
-    img: "/assets/images/wedding7.jpg"
-  },
-  {
-    id: 8,
-    label: "Sunita & Dev",
-    h: "h-48",
-    img: "/assets/images/wedding8.jpg"
-  }
+  { id: 1, h: "h-56", img: "/assets/images/wedding1.jpg" },
+  { id: 2, h: "h-44", img: "/assets/images/wedding2.jpg" },
+  { id: 3, h: "h-64", img: "/assets/images/wedding3.jpg" },
+  { id: 4, h: "h-48", img: "/assets/images/wedding4.jpg" },
+  { id: 5, h: "h-52", img: "/assets/images/wedding5.jpg" },
+  { id: 6, h: "h-44", img: "/assets/images/wedding6.jpg" },
+  { id: 7, h: "h-60", img: "/assets/images/wedding7.jpg" },
+  { id: 8, h: "h-48", img: "/assets/images/wedding8.jpg" }
 ];
 const fallbackTestimonials = [
-  {
-    id: 1n,
-    name: "Priya & Arjun",
-    quote: "Badhai Ho captured our wedding like a Bollywood film. Every frame was pure magic. We cry tears of joy every time we watch our wedding film.",
-    rating: 5n,
-    photoUrl: "",
-    featured: true,
-    createdAt: 0n
-  },
-  {
-    id: 2n,
-    name: "Meera & Karan",
-    quote: "The team was so professional and creative. They made us feel completely at ease. The photos are absolutely breathtaking — beyond our wildest expectations.",
-    rating: 5n,
-    photoUrl: "",
-    featured: true,
-    createdAt: 0n
-  },
-  {
-    id: 3n,
-    name: "Sneha & Rohit",
-    quote: "Our wedding film is a masterpiece. Friends and family still cannot believe how cinematic it looks. Truly the best decision we made for our wedding.",
-    rating: 5n,
-    photoUrl: "",
-    featured: true,
-    createdAt: 0n
-  },
-  {
-    id: 4n,
-    name: "Divya & Raj",
-    quote: "From pre-wedding to the reception, they captured emotions we did not even know were on camera. The film makes us relive the most beautiful day every time.",
-    rating: 5n,
-    photoUrl: "",
-    featured: true,
-    createdAt: 0n
-  },
   {
     id: 5n,
     name: "Sunita & Dev",
     quote: "The team blended into our celebration so naturally. Every candid moment, every tear of happiness — all preserved forever. Highly recommended!",
     rating: 5n,
     photoUrl: "",
-    featured: false,
+    featured: true,
     createdAt: 0n
+  }
+];
+const featuredFilmsStatic = [
+  {
+    id: 1,
+    src: "/assets/vanani_yashas_mehendi_up_2-019e3074-e391-752a-9287-8c0ed3500306.mp4"
   },
   {
-    id: 6n,
-    name: "Neha & Sahil",
-    quote: "Their cinematic style is unmatched in Odisha. Our wedding film felt like a movie we actually starred in. The editing, the music, the emotions — perfect.",
-    rating: 5n,
-    photoUrl: "",
-    featured: false,
-    createdAt: 0n
+    id: 2,
+    src: "/assets/slide_2.mp4"
+  },
+  {
+    id: 3,
+    src: "/assets/couple_video_1.mp4"
   }
 ];
 const fallbackPackages$1 = [
@@ -47767,8 +47350,7 @@ const fallbackPackages$1 = [
     features: [
       "Wedding Photography",
       "8 Hours Coverage",
-      "500+ Edited Photos",
-      "Online Gallery",
+      "300+ Edited Photos",
       "USB Drive Delivery"
     ]
   },
@@ -47781,7 +47363,7 @@ const fallbackPackages$1 = [
       "Wedding Photography + Film",
       "Full Day Coverage",
       "Cinematic Highlight Film",
-      "1000+ Edited Photos",
+      "500+ Edited Photos",
       "Drone Shots",
       "Same-Day Edit Reel"
     ]
@@ -47802,15 +47384,13 @@ const fallbackPackages$1 = [
     ]
   }
 ];
-const categoryLabels = {
-  weddingHighlights: "Wedding Highlights",
-  engagement: "Engagement Films",
-  coupleTeasers: "Couple Teasers",
-  reels: "Reels"
-};
 const reelPreviews = [
   { id: 1, label: "Wedding Highlight 2024" },
-  { id: 2, label: "Engagement Story" },
+  {
+    id: 2,
+    label: "Engagement Story",
+    videoSrc: "/assets/wedding_reels_3-019e3074-dbae-77a1-b229-3c2009e9d657.mp4"
+  },
   { id: 3, label: "Couple Teaser" },
   { id: 4, label: "Reception Film" },
   { id: 5, label: "Pre-Wedding Reel" }
@@ -47873,6 +47453,88 @@ function VideoModal({
     "video-modal"
   );
 }
+function FeaturedFilmsGrid() {
+  const [playingIds, setPlayingIds] = reactExports.useState({});
+  const videoRefs = reactExports.useRef({});
+  function togglePlay(id2) {
+    const video = videoRefs.current[id2];
+    if (!video) return;
+    if (video.paused) {
+      video.play();
+      setPlayingIds((prev) => ({ ...prev, [id2]: true }));
+    } else {
+      video.pause();
+      setPlayingIds((prev) => ({ ...prev, [id2]: false }));
+    }
+  }
+  return /* @__PURE__ */ jsxRuntimeExports.jsx(
+    "div",
+    {
+      className: "grid grid-cols-1 sm:grid-cols-3 gap-5",
+      "data-ocid": "films.list",
+      children: featuredFilmsStatic.map((film, i) => {
+        const isPlaying = !!playingIds[film.id];
+        return /* @__PURE__ */ jsxRuntimeExports.jsxs(
+          motion.div,
+          {
+            initial: { opacity: 0, y: 20 },
+            whileInView: { opacity: 1, y: 0 },
+            viewport: { once: true },
+            transition: { delay: i * 0.1, duration: 0.6 },
+            "data-ocid": `films.item.${i + 1}`,
+            className: "relative group overflow-hidden aspect-[3/4] bg-[#0F0F0F]",
+            children: [
+              /* @__PURE__ */ jsxRuntimeExports.jsx(
+                "video",
+                {
+                  ref: (el) => {
+                    videoRefs.current[film.id] = el;
+                  },
+                  src: film.src,
+                  playsInline: true,
+                  className: "w-full h-full object-cover opacity-90 group-hover:opacity-100 transition-all duration-700",
+                  onEnded: () => setPlayingIds((prev) => ({ ...prev, [film.id]: false })),
+                  children: /* @__PURE__ */ jsxRuntimeExports.jsx("track", { kind: "captions" })
+                }
+              ),
+              /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "absolute inset-0 bg-gradient-to-t from-[#0F0F0F]/70 via-transparent to-transparent" }),
+              /* @__PURE__ */ jsxRuntimeExports.jsx(
+                "button",
+                {
+                  type: "button",
+                  "aria-label": isPlaying ? "Pause video" : "Play video",
+                  "data-ocid": `films.play_button.${i + 1}`,
+                  onClick: () => togglePlay(film.id),
+                  className: "absolute inset-0 flex items-center justify-center cursor-pointer focus:outline-none",
+                  children: /* @__PURE__ */ jsxRuntimeExports.jsx(
+                    "div",
+                    {
+                      className: `w-16 h-16 rounded-full border-2 border-[#D4AF37]/80 flex items-center justify-center backdrop-blur-sm shadow-[0_0_24px_rgba(212,175,55,0.35)] transition-all duration-300 ${isPlaying ? "bg-[#0F0F0F]/50 opacity-0 group-hover:opacity-100" : "bg-[#0F0F0F]/40 opacity-100"}`,
+                      children: isPlaying ? /* @__PURE__ */ jsxRuntimeExports.jsx(
+                        Pause,
+                        {
+                          className: "h-7 w-7 text-[#D4AF37]",
+                          fill: "currentColor"
+                        }
+                      ) : /* @__PURE__ */ jsxRuntimeExports.jsx(
+                        Play,
+                        {
+                          className: "h-7 w-7 text-[#D4AF37] ml-1",
+                          fill: "currentColor"
+                        }
+                      )
+                    }
+                  )
+                }
+              )
+            ]
+          },
+          film.id
+        );
+      })
+    }
+  );
+}
 function Home() {
   const filmsRef = reactExports.useRef(null);
   const contactRef = reactExports.useRef(null);
@@ -47889,12 +47551,11 @@ function Home() {
   const [submitSuccess, setSubmitSuccess] = reactExports.useState(false);
   const { data: featuredFilms } = useFeaturedFilms();
   const { data: testimonials } = useFeaturedTestimonials();
-  const { data: packages } = usePackages();
   const { data: galleryData } = useGalleryImages();
   const submitInquiry = useSubmitInquiry();
-  const films = featuredFilms && featuredFilms.length > 0 ? featuredFilms : fallbackFilms;
-  const displayTestimonials = testimonials && testimonials.length > 0 ? testimonials : fallbackTestimonials;
-  const displayPackages = packages && packages.length > 0 ? packages : fallbackPackages$1;
+  featuredFilms && featuredFilms.length > 0 ? featuredFilms : fallbackFilms;
+  testimonials && testimonials.length > 0 ? testimonials : fallbackTestimonials;
+  const displayPackages = fallbackPackages$1;
   function scrollToContact() {
     var _a3;
     (_a3 = contactRef.current) == null ? void 0 : _a3.scrollIntoView({ behavior: "smooth" });
@@ -47930,6 +47591,16 @@ function Home() {
         message: formData.message
       });
       setSubmitSuccess(true);
+      const whatsappMessage = `New Inquiry from Website:
+
+Name: ${formData.name}
+Email: ${formData.email}
+Phone: ${formData.phone}
+Event Date: ${formData.eventDate}
+Package Interest: ${formData.packageInterest}
+Message: ${formData.message}`;
+      const whatsappUrl = `https://wa.me/919776376441?text=${encodeURIComponent(whatsappMessage)}`;
+      window.open(whatsappUrl, "_blank");
       setFormData({
         name: "",
         email: "",
@@ -47956,8 +47627,9 @@ function Home() {
               loop: true,
               muted: true,
               playsInline: true,
+              preload: "auto",
               className: "absolute inset-0 w-full h-full object-cover",
-              children: /* @__PURE__ */ jsxRuntimeExports.jsx("source", { src: "/assets/video_project_1.mp4", type: "video/mp4" })
+              children: /* @__PURE__ */ jsxRuntimeExports.jsx("source", { src: "/assets/jhumka_1_1.mp4", type: "video/mp4" })
             }
           ),
           /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "absolute inset-0 bg-gradient-to-b from-background/60 via-background/30 to-background" }),
@@ -48050,6 +47722,98 @@ function Home() {
     /* @__PURE__ */ jsxRuntimeExports.jsx(
       "section",
       {
+        id: "instagram",
+        className: "py-20 lg:py-28 bg-background",
+        "data-ocid": "instagram.section",
+        children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "container mx-auto px-4 lg:px-8", children: [
+          /* @__PURE__ */ jsxRuntimeExports.jsxs(
+            motion.div,
+            {
+              initial: { opacity: 0, y: 20 },
+              whileInView: { opacity: 1, y: 0 },
+              viewport: { once: true },
+              transition: { duration: 0.7 },
+              className: "text-center mb-14",
+              children: [
+                /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "flex justify-center mb-4", children: /* @__PURE__ */ jsxRuntimeExports.jsx(SiInstagram, { className: "h-10 w-10 text-primary" }) }),
+                /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "font-body text-xs text-primary tracking-[0.3em] uppercase mb-3", children: "Stay Connected" }),
+                /* @__PURE__ */ jsxRuntimeExports.jsx("h2", { className: "font-display text-4xl lg:text-5xl font-bold text-foreground mb-4", children: "Follow Our Work" }),
+                /* @__PURE__ */ jsxRuntimeExports.jsx(
+                  "a",
+                  {
+                    href: "https://www.instagram.com/badhaihofilms?igsh=MWk3MW1oNGZ3YnBjcw%3D%3D&utm_source=qr",
+                    target: "_blank",
+                    rel: "noopener noreferrer",
+                    "data-ocid": "instagram.handle_link",
+                    className: "font-body text-primary hover:text-primary/80 transition-smooth text-sm tracking-widest uppercase",
+                    children: "@badhaihofilms"
+                  }
+                )
+              ]
+            }
+          ),
+          /* @__PURE__ */ jsxRuntimeExports.jsx(
+            "div",
+            {
+              className: "overflow-x-auto pb-4",
+              "data-ocid": "instagram.reels_slider",
+              children: /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "flex gap-4 min-w-max", children: reelPreviews.map((reel, i) => /* @__PURE__ */ jsxRuntimeExports.jsxs(
+                motion.div,
+                {
+                  initial: { opacity: 0, x: 20 },
+                  whileInView: { opacity: 1, x: 0 },
+                  viewport: { once: true },
+                  transition: { delay: i * 0.08 },
+                  "data-ocid": `instagram.reel.${i + 1}`,
+                  className: "relative w-48 h-80 shrink-0 overflow-hidden border border-border group cursor-pointer hover:border-primary/60 transition-smooth",
+                  children: [
+                    reel.id === 1 || reel.videoSrc ? /* @__PURE__ */ jsxRuntimeExports.jsx(
+                      "video",
+                      {
+                        src: reel.videoSrc ?? "/assets/video_project_1.mp4",
+                        autoPlay: true,
+                        muted: true,
+                        loop: true,
+                        playsInline: true,
+                        className: "w-full h-full object-cover"
+                      }
+                    ) : /* @__PURE__ */ jsxRuntimeExports.jsx(
+                      "img",
+                      {
+                        src: "/assets/generated/hero-wedding.dim_1920x1080.jpg",
+                        alt: reel.label,
+                        className: "w-full h-full object-cover opacity-50 group-hover:opacity-70 group-hover:scale-105 transition-all duration-700"
+                      }
+                    ),
+                    /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "absolute inset-0 bg-gradient-to-t from-background/80 to-transparent" }),
+                    reel.id !== 1 && !reel.videoSrc && /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "absolute inset-0 flex items-center justify-center", children: /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "w-10 h-10 rounded-full border border-primary/60 flex items-center justify-center bg-background/30 backdrop-blur-sm group-hover:bg-primary/20 transition-smooth", children: /* @__PURE__ */ jsxRuntimeExports.jsx(Play, { className: "h-4 w-4 text-primary ml-0.5" }) }) }),
+                    /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "absolute bottom-3 left-3 right-3 font-body text-xs text-foreground/80 truncate", children: reel.label })
+                  ]
+                },
+                reel.id
+              )) })
+            }
+          ),
+          /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "text-center mt-10", children: /* @__PURE__ */ jsxRuntimeExports.jsxs(
+            "a",
+            {
+              href: "https://www.instagram.com/badhaihofilms?igsh=MWk3MW1oNGZ3YnBjcw%3D%3D&utm_source=qr",
+              target: "_blank",
+              rel: "noopener noreferrer",
+              "data-ocid": "instagram.follow_button",
+              className: "inline-flex items-center gap-2 px-8 py-3 bg-primary text-primary-foreground font-body text-sm font-semibold tracking-widest uppercase transition-smooth hover:bg-primary/90",
+              children: [
+                /* @__PURE__ */ jsxRuntimeExports.jsx(SiInstagram, { className: "h-4 w-4" }),
+                "Follow on Instagram"
+              ]
+            }
+          ) })
+        ] })
+      }
+    ),
+    /* @__PURE__ */ jsxRuntimeExports.jsx(
+      "section",
+      {
         ref: filmsRef,
         id: "films",
         className: "py-20 lg:py-28 bg-background",
@@ -48070,57 +47834,7 @@ function Home() {
               ]
             }
           ),
-          /* @__PURE__ */ jsxRuntimeExports.jsx(
-            "div",
-            {
-              className: "grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4",
-              "data-ocid": "films.list",
-              children: films.slice(0, 4).map((film, i) => /* @__PURE__ */ jsxRuntimeExports.jsxs(
-                motion.button,
-                {
-                  type: "button",
-                  initial: { opacity: 0, y: 30 },
-                  whileInView: { opacity: 1, y: 0 },
-                  viewport: { once: true },
-                  transition: { delay: i % 4 * 0.1, duration: 0.6 },
-                  "data-ocid": `films.item.${i + 1}`,
-                  onClick: () => {
-                    const raw = film.youtubeUrl;
-                    const match = raw.match(
-                      /(?:youtu\.be\/|v\/|watch\?v=|embed\/)([^&?#]+)/
-                    );
-                    setActiveVideo(match ? match[1] : raw);
-                  },
-                  className: "group relative overflow-hidden cursor-pointer bg-card aspect-[4/3] text-left",
-                  children: [
-                    /* @__PURE__ */ jsxRuntimeExports.jsx(
-                      "img",
-                      {
-                        src: film.thumbnailUrl || "/assets/generated/hero-wedding.dim_1920x1080.jpg",
-                        alt: film.title,
-                        className: "w-full h-full object-cover transition-all duration-700 group-hover:scale-105"
-                      }
-                    ),
-                    /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "absolute inset-0 bg-gradient-to-t from-background/90 via-background/20 to-transparent" }),
-                    /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "absolute inset-0 flex items-center justify-center", children: /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "w-12 h-12 rounded-full border-2 border-primary flex items-center justify-center bg-background/30 backdrop-blur-sm transition-smooth group-hover:bg-primary group-hover:scale-110", children: /* @__PURE__ */ jsxRuntimeExports.jsx(Play, { className: "h-4 w-4 text-primary group-hover:text-primary-foreground ml-0.5" }) }) }),
-                    /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "absolute bottom-0 left-0 right-0 p-4", children: [
-                      /* @__PURE__ */ jsxRuntimeExports.jsx(
-                        Badge,
-                        {
-                          variant: "outline",
-                          className: "mb-2 text-[10px] border-primary/50 text-primary bg-background/60 backdrop-blur-sm",
-                          children: categoryLabels[typeof film.category === "string" ? film.category : Object.keys(film.category)[0] ?? "weddingHighlights"] ?? "Wedding Film"
-                        }
-                      ),
-                      /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "font-display text-base font-bold text-foreground", children: film.title }),
-                      /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-xs text-muted-foreground mt-0.5 font-body", children: film.description })
-                    ] })
-                  ]
-                },
-                film.id.toString()
-              ))
-            }
-          ),
+          /* @__PURE__ */ jsxRuntimeExports.jsx(FeaturedFilmsGrid, {}),
           /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "text-center mt-10", children: /* @__PURE__ */ jsxRuntimeExports.jsx(
             Link,
             {
@@ -48203,7 +47917,7 @@ function Home() {
             {
               className: "columns-2 md:columns-3 lg:columns-4 gap-3 space-y-3",
               "data-ocid": "gallery.list",
-              children: galleryItems.map((item, i) => /* @__PURE__ */ jsxRuntimeExports.jsxs(
+              children: galleryItems.map((item, i) => /* @__PURE__ */ jsxRuntimeExports.jsx(
                 motion.div,
                 {
                   initial: { opacity: 0, scale: 0.95 },
@@ -48212,18 +47926,14 @@ function Home() {
                   transition: { delay: i * 0.05, duration: 0.5 },
                   "data-ocid": `gallery.item.${i + 1}`,
                   className: `break-inside-avoid relative overflow-hidden group cursor-pointer ${item.h}`,
-                  children: [
-                    /* @__PURE__ */ jsxRuntimeExports.jsx(
-                      "img",
-                      {
-                        src: item.img,
-                        alt: item.label,
-                        className: "w-full h-full object-cover opacity-80 group-hover:opacity-100 group-hover:scale-105 transition-all duration-700"
-                      }
-                    ),
-                    /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "absolute inset-0 bg-gradient-to-t from-background/80 to-transparent" }),
-                    /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "absolute bottom-3 left-3 right-3 font-display text-xs font-semibold text-foreground/90 truncate", children: item.label })
-                  ]
+                  children: /* @__PURE__ */ jsxRuntimeExports.jsx(
+                    "img",
+                    {
+                      src: item.img,
+                      alt: "Wedding memory",
+                      className: "w-full h-full object-cover opacity-80 group-hover:opacity-100 group-hover:scale-105 transition-all duration-700"
+                    }
+                  )
                 },
                 item.id
               ))
@@ -48283,7 +47993,7 @@ function Home() {
               ]
             }
           ),
-          /* @__PURE__ */ jsxRuntimeExports.jsxs(
+          /* @__PURE__ */ jsxRuntimeExports.jsx(
             motion.div,
             {
               initial: { opacity: 0, x: 30 },
@@ -48291,39 +48001,22 @@ function Home() {
               viewport: { once: true },
               transition: { duration: 0.8, delay: 0.2 },
               className: "space-y-5",
-              children: [
-                /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "relative border border-primary/40 overflow-hidden", children: [
-                  /* @__PURE__ */ jsxRuntimeExports.jsx(
-                    "img",
-                    {
-                      src: "/assets/generated/hero-wedding.dim_1920x1080.jpg",
-                      alt: "Cinematic wedding moment",
-                      className: "w-full aspect-[4/3] object-cover opacity-70"
-                    }
-                  ),
-                  /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "absolute inset-0 bg-gradient-to-br from-background/50 via-transparent to-primary/10" }),
-                  /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "absolute bottom-4 left-4 right-4 font-display text-lg italic text-foreground/90", children: "“Let’s Celebrate The Occasion”" })
-                ] }),
-                /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "grid grid-cols-3 gap-3", children: [
-                  { num: "16+", label: "Years Experience" },
-                  { num: "500+", label: "Weddings" },
-                  { num: "1000+", label: "Happy Families" }
-                ].map((stat, i) => /* @__PURE__ */ jsxRuntimeExports.jsxs(
-                  motion.div,
+              children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "relative rounded-xl overflow-hidden border border-[#D4AF37]/40 shadow-[0_0_50px_rgba(212,175,55,0.12)]", children: [
+                /* @__PURE__ */ jsxRuntimeExports.jsx(
+                  "img",
                   {
-                    initial: { opacity: 0, y: 15 },
-                    whileInView: { opacity: 1, y: 0 },
-                    viewport: { once: true },
-                    transition: { delay: 0.4 + i * 0.1 },
-                    className: "bg-card border border-primary/30 p-4 text-center",
-                    children: [
-                      /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "font-display text-2xl font-bold text-primary", children: stat.num }),
-                      /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "font-body text-[10px] text-muted-foreground tracking-wider uppercase mt-1", children: stat.label })
-                    ]
-                  },
-                  stat.label
-                )) })
-              ]
+                    src: "/assets/images/owner-photo.jpg",
+                    alt: "Creative Director – Badhai Ho Wedding & Event Films",
+                    className: "w-full aspect-[4/3] object-cover"
+                  }
+                ),
+                /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "absolute inset-0 bg-gradient-to-t from-[#0F0F0F]/80 via-[#0F0F0F]/20 to-transparent" }),
+                /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "absolute bottom-0 left-0 right-0 px-5 py-4 backdrop-blur-sm bg-[#0F0F0F]/40 border-t border-[#D4AF37]/25", children: [
+                  /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "font-display text-sm font-bold text-[#FFFFFF] mb-0.5", children: "Our Creative Director" }),
+                  /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "font-body text-[11px] text-[#B0B0B0] tracking-widest uppercase", children: "16+ Years · Cinematic Storyteller" })
+                ] }),
+                /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "absolute top-4 left-4 right-4 font-display text-sm italic text-[#D4AF37]/90 leading-snug drop-shadow-md", children: "“Let’s Celebrate The Occasion”" })
+              ] })
             }
           )
         ] }) })
@@ -48354,9 +48047,9 @@ function Home() {
           /* @__PURE__ */ jsxRuntimeExports.jsx(
             "div",
             {
-              className: "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5",
+              className: "flex flex-wrap justify-center gap-5",
               "data-ocid": "testimonials.list",
-              children: displayTestimonials.slice(0, 6).map((t, i) => /* @__PURE__ */ jsxRuntimeExports.jsxs(
+              children: fallbackTestimonials.slice(0, 1).map((t, i) => /* @__PURE__ */ jsxRuntimeExports.jsxs(
                 motion.div,
                 {
                   initial: { opacity: 0, y: 20 },
@@ -48364,7 +48057,7 @@ function Home() {
                   viewport: { once: true },
                   transition: { delay: i % 3 * 0.1 },
                   "data-ocid": `testimonials.item.${i + 1}`,
-                  className: "bg-card border border-border p-6 hover:border-primary/40 transition-smooth",
+                  className: "bg-card border border-border p-6 hover:border-primary/40 transition-smooth max-w-xl w-full",
                   children: [
                     /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "flex gap-0.5 mb-4", children: Array.from({ length: Number(t.rating) }, (_2, s2) => /* @__PURE__ */ jsxRuntimeExports.jsx(
                       Star,
@@ -48461,89 +48154,6 @@ function Home() {
               ))
             }
           )
-        ] })
-      }
-    ),
-    /* @__PURE__ */ jsxRuntimeExports.jsx(GoldDivider, { text: "Follow Our Journey" }),
-    /* @__PURE__ */ jsxRuntimeExports.jsx(
-      "section",
-      {
-        id: "instagram",
-        className: "py-20 lg:py-28 bg-background",
-        "data-ocid": "instagram.section",
-        children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "container mx-auto px-4 lg:px-8", children: [
-          /* @__PURE__ */ jsxRuntimeExports.jsxs(
-            motion.div,
-            {
-              initial: { opacity: 0, y: 20 },
-              whileInView: { opacity: 1, y: 0 },
-              viewport: { once: true },
-              transition: { duration: 0.7 },
-              className: "text-center mb-14",
-              children: [
-                /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "flex justify-center mb-4", children: /* @__PURE__ */ jsxRuntimeExports.jsx(SiInstagram, { className: "h-10 w-10 text-primary" }) }),
-                /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "font-body text-xs text-primary tracking-[0.3em] uppercase mb-3", children: "Stay Connected" }),
-                /* @__PURE__ */ jsxRuntimeExports.jsx("h2", { className: "font-display text-4xl lg:text-5xl font-bold text-foreground mb-4", children: "Follow Our Work" }),
-                /* @__PURE__ */ jsxRuntimeExports.jsx(
-                  "a",
-                  {
-                    href: "https://www.instagram.com/badhaihofilms?igsh=MWk3MW1oNGZ3YnBjcw%3D%3D&utm_source=qr",
-                    target: "_blank",
-                    rel: "noopener noreferrer",
-                    "data-ocid": "instagram.handle_link",
-                    className: "font-body text-primary hover:text-primary/80 transition-smooth text-sm tracking-widest uppercase",
-                    children: "@badhaihofilms"
-                  }
-                )
-              ]
-            }
-          ),
-          /* @__PURE__ */ jsxRuntimeExports.jsx(
-            "div",
-            {
-              className: "overflow-x-auto pb-4",
-              "data-ocid": "instagram.reels_slider",
-              children: /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "flex gap-4 min-w-max", children: reelPreviews.map((reel, i) => /* @__PURE__ */ jsxRuntimeExports.jsxs(
-                motion.div,
-                {
-                  initial: { opacity: 0, x: 20 },
-                  whileInView: { opacity: 1, x: 0 },
-                  viewport: { once: true },
-                  transition: { delay: i * 0.08 },
-                  "data-ocid": `instagram.reel.${i + 1}`,
-                  className: "relative w-48 h-80 shrink-0 overflow-hidden border border-border group cursor-pointer hover:border-primary/60 transition-smooth",
-                  children: [
-                    /* @__PURE__ */ jsxRuntimeExports.jsx(
-                      "img",
-                      {
-                        src: "/assets/generated/hero-wedding.dim_1920x1080.jpg",
-                        alt: reel.label,
-                        className: "w-full h-full object-cover opacity-50 group-hover:opacity-70 group-hover:scale-105 transition-all duration-700"
-                      }
-                    ),
-                    /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "absolute inset-0 bg-gradient-to-t from-background/80 to-transparent" }),
-                    /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "absolute inset-0 flex items-center justify-center", children: /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "w-10 h-10 rounded-full border border-primary/60 flex items-center justify-center bg-background/30 backdrop-blur-sm group-hover:bg-primary/20 transition-smooth", children: /* @__PURE__ */ jsxRuntimeExports.jsx(Play, { className: "h-4 w-4 text-primary ml-0.5" }) }) }),
-                    /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "absolute bottom-3 left-3 right-3 font-body text-xs text-foreground/80 truncate", children: reel.label })
-                  ]
-                },
-                reel.id
-              )) })
-            }
-          ),
-          /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "text-center mt-10", children: /* @__PURE__ */ jsxRuntimeExports.jsxs(
-            "a",
-            {
-              href: "https://www.instagram.com/badhaihofilms?igsh=MWk3MW1oNGZ3YnBjcw%3D%3D&utm_source=qr",
-              target: "_blank",
-              rel: "noopener noreferrer",
-              "data-ocid": "instagram.follow_button",
-              className: "inline-flex items-center gap-2 px-8 py-3 bg-primary text-primary-foreground font-body text-sm font-semibold tracking-widest uppercase transition-smooth hover:bg-primary/90",
-              children: [
-                /* @__PURE__ */ jsxRuntimeExports.jsx(SiInstagram, { className: "h-4 w-4" }),
-                "Follow on Instagram"
-              ]
-            }
-          ) })
         ] })
       }
     ),
@@ -48953,8 +48563,7 @@ const fallbackPackages = [
     features: [
       "Wedding Photography",
       "8 Hours Coverage",
-      "500+ Edited Photos",
-      "Online Gallery Access",
+      "300+ Edited Photos",
       "USB Drive Delivery",
       "Basic Retouching"
     ]
@@ -48968,7 +48577,7 @@ const fallbackPackages = [
       "Wedding Photography + Film",
       "Full Day Coverage",
       "Cinematic Highlight Film (10 min)",
-      "1000+ Edited Photos",
+      "500+ Edited Photos",
       "Aerial Drone Shots",
       "Same-Day Edit Reel",
       "Premium Album",
@@ -48993,9 +48602,8 @@ const fallbackPackages = [
     ]
   }
 ];
+const packages = fallbackPackages;
 function Packages() {
-  const { data: packagesData } = usePackages();
-  const packages = packagesData && packagesData.length > 0 ? packagesData : fallbackPackages;
   return /* @__PURE__ */ jsxRuntimeExports.jsx(Layout, { children: /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "pt-24 pb-20 lg:pt-32 lg:pb-28", children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "container mx-auto px-4 lg:px-8", children: [
     /* @__PURE__ */ jsxRuntimeExports.jsxs(
       motion.div,

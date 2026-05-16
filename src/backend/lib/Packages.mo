@@ -13,8 +13,8 @@ module {
       counter = { var nextId = 1 };
     };
     // Seed default packages
-    ignore create(state, { name = "Silver"; price = "Starting from ₹80,000"; features = ["Wedding Photography", "8 Hours Coverage", "500+ Edited Photos", "Online Gallery"]; highlighted = false });
-    ignore create(state, { name = "Gold"; price = "Starting from ₹1,20,000"; features = ["Wedding Photography & Film", "12 Hours Coverage", "800+ Edited Photos", "Cinematic Highlights Film", "Online Gallery", "Engagement Session"]; highlighted = true });
+    ignore create(state, { name = "Silver"; price = "Starting from ₹80,000"; features = ["Wedding Photography", "8 Hours Coverage", "300+ Edited Photos", "Online Gallery"]; highlighted = false });
+    ignore create(state, { name = "Gold"; price = "Starting from ₹1,20,000"; features = ["Wedding Photography & Film", "12 Hours Coverage", "500+ Edited Photos", "Cinematic Highlights Film", "Online Gallery", "Engagement Session"]; highlighted = true });
     ignore create(state, { name = "Platinum"; price = "Custom Pricing"; features = ["Full Wedding Coverage", "2 Photographers", "Cinematic Wedding Film", "Pre-Wedding Shoot", "Drone Coverage", "Same Day Edit", "Photo Album"]; highlighted = false });
     state;
   };

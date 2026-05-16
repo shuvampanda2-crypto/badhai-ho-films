@@ -3,13 +3,6 @@ import { Link } from "@tanstack/react-router";
 import { Award, Camera, Film, Heart } from "lucide-react";
 import { motion } from "motion/react";
 
-const stats = [
-  { value: "16+", label: "Years of Experience" },
-  { value: "500+", label: "Weddings Covered" },
-  { value: "1000+", label: "Happy Couples" },
-  { value: "50+", label: "Award-Winning Films" },
-];
-
 const values = [
   {
     icon: Film,
@@ -93,45 +86,29 @@ export function About() {
               transition={{ duration: 0.8, delay: 0.2 }}
               className="relative"
             >
-              <img
-                src="/assets/generated/hero-wedding.dim_1920x1080.jpg"
-                alt="Badhai Ho Films"
-                className="w-full aspect-[4/5] object-cover"
-              />
-              <div className="absolute -bottom-4 -left-4 bg-[#D4AF37] px-6 py-4">
-                <p className="font-display text-3xl font-bold text-[#0F0F0F]">
-                  16+
-                </p>
-                <p className="font-body text-xs text-[#0F0F0F]/80 tracking-widest uppercase">
-                  Years Experience
-                </p>
+              {/* Owner portrait with gold border + cinematic glow */}
+              <div className="relative">
+                <div className="absolute -inset-px rounded-2xl bg-gradient-to-br from-[#D4AF37]/60 via-[#D4AF37]/20 to-transparent" />
+                <div className="relative rounded-2xl overflow-hidden shadow-[0_0_60px_rgba(212,175,55,0.18)]">
+                  <img
+                    src="/assets/images/owner-photo.jpg"
+                    alt="Founder – Badhai Ho Wedding & Event Films"
+                    className="w-full aspect-[4/5] object-cover"
+                  />
+                  {/* Cinematic overlay */}
+                  <div className="absolute inset-0 bg-gradient-to-t from-[#0F0F0F]/70 via-transparent to-transparent" />
+                  {/* Glass name tag */}
+                  <div className="absolute bottom-0 left-0 right-0 p-5 backdrop-blur-md bg-[#0F0F0F]/50 border-t border-[#D4AF37]/30">
+                    <p className="font-display text-base font-bold text-[#FFFFFF] mb-0.5">
+                      Creative Director &amp; Editor
+                    </p>
+                    <p className="font-body text-xs text-[#B0B0B0] tracking-widest uppercase">
+                      Badhai Ho – Wedding &amp; Event Films
+                    </p>
+                  </div>
+                </div>
               </div>
             </motion.div>
-          </div>
-        </section>
-
-        {/* Stats */}
-        <section className="glass-strong border-t border-b border-white/10 py-14 mb-20">
-          <div className="container mx-auto px-4 lg:px-8">
-            <div className="grid grid-cols-2 lg:grid-cols-4 gap-8">
-              {stats.map((stat, i) => (
-                <motion.div
-                  key={stat.label}
-                  initial={{ opacity: 0, y: 20 }}
-                  whileInView={{ opacity: 1, y: 0 }}
-                  viewport={{ once: true }}
-                  transition={{ delay: i * 0.1 }}
-                  className="text-center"
-                >
-                  <p className="font-display text-4xl lg:text-5xl font-bold text-[#D4AF37] mb-2">
-                    {stat.value}
-                  </p>
-                  <p className="font-body text-xs text-muted-foreground tracking-wider uppercase">
-                    {stat.label}
-                  </p>
-                </motion.div>
-              ))}
-            </div>
           </div>
         </section>
 

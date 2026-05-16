@@ -45,6 +45,17 @@ export function Contact() {
     try {
       await mutation.mutateAsync(formData);
       setSubmitted(true);
+      const parts: string[] = ["New Inquiry from Badhai Ho Website", ""];
+      if (formData.name.trim()) parts.push(`Name: ${formData.name}`);
+      if (formData.phone.trim()) parts.push(`Phone: ${formData.phone}`);
+      if (formData.email.trim()) parts.push(`Email: ${formData.email}`);
+      if (formData.eventDate.trim())
+        parts.push(`Event Date: ${formData.eventDate}`);
+      if (formData.packageInterest.trim())
+        parts.push(`Package: ${formData.packageInterest}`);
+      if (formData.message.trim()) parts.push(`Message: ${formData.message}`);
+      const whatsappUrl = `https://wa.me/919776376441?text=${encodeURIComponent(parts.join("\n"))}`;
+      window.open(whatsappUrl, "_blank");
     } catch {
       // handled via mutation.isError
     }
